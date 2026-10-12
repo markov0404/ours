@@ -1,0 +1,2486 @@
+{
+  "dataset": "plumb",
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "rows": [
+    {
+      "dataset": "plumb",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1133,
+      "acc": 0.7899382171226832,
+      "ece": 0.02773284130883449,
+      "brier": 0.27827367186546326,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.4,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.4,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.7903225806451613
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.7714285714285715
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.9852941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.7288135593220338
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.7443181818181818
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.7526881720430108
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.8
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.9375
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.9042553191489362
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.7115384615384616
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.7792207792207793
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8032786885245902
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9601357082273113,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1133,
+      "acc": 0.7961165048543689,
+      "ece": 0.025675281658702885,
+      "brier": 0.2782290279865265,
+      "risk": {
+        "theta": 0.9754368662834167,
+        "automation": 0.20211827007943514,
+        "realized_risk": 0.004366812227074246,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.4,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 10.474808692932129,
+          "strong_mass": 11.934246063232422,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.4,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.474808692932129,
+            "strong_mass": 11.934246063232422,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.500396728515625,
+            "strong_mass": 12.308155059814453,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 0.9,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.474147987365722,
+            "strong_mass": 12.23255443572998,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.386758804321289,
+            "strong_mass": 12.249811935424805,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.18399257659912,
+            "strong_mass": 12.15285701751709,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.7903225806451613
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.7714285714285715
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.9852941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.7372881355932204
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.7784090909090909
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.7526881720430108
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.8
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.9375
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.9042553191489362
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.7115384615384616
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.7792207792207793
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8032786885245902
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9601357082273113,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1133,
+      "acc": 0.7969991173874669,
+      "ece": 0.025562246868490436,
+      "brier": 0.2781934142112732,
+      "risk": {
+        "theta": 0.9754354357719421,
+        "automation": 0.1994704324801412,
+        "realized_risk": 0.004424778761061954,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.4,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 10.3652925491333,
+          "strong_mass": 12.117953300476074,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.4,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.3652925491333,
+            "strong_mass": 12.117953300476074,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.257740020751953,
+            "strong_mass": 12.645238876342773,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 0.9,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.368866729736329,
+            "strong_mass": 12.577522659301758,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.104469680786133,
+            "strong_mass": 12.531209564208984,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.18784465789795,
+            "strong_mass": 12.361174392700196,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.7903225806451613
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.7714285714285715
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.9852941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.7372881355932204
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.7784090909090909
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.7526881720430108
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.8
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.9375
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.9042553191489362
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.717948717948718
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.7792207792207793
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8032786885245902
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9601357082273113,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours1cal",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1133,
+      "acc": 0.7969991173874669,
+      "ece": 0.025562246868490436,
+      "brier": 0.2781934142112732,
+      "risk": {
+        "theta": 0.9754354357719421,
+        "automation": 0.1994704324801412,
+        "realized_risk": 0.004424778761061954,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.4,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 10.3652925491333,
+          "strong_mass": 12.117953300476074,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.4,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.3652925491333,
+            "strong_mass": 12.117953300476074,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.257740020751953,
+            "strong_mass": 12.645238876342773,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 0.9,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.368866729736329,
+            "strong_mass": 12.577522659301758,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.104469680786133,
+            "strong_mass": 12.531209564208984,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.18784465789795,
+            "strong_mass": 12.361174392700196,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.7903225806451613
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.7714285714285715
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.9852941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.7372881355932204
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.7784090909090909
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.7526881720430108
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.8
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.9375
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.9042553191489362
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.717948717948718
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.7792207792207793
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8032786885245902
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9601357082273113,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1133,
+      "acc": 0.7961165048543689,
+      "ece": 0.025673203992296504,
+      "brier": 0.27823150157928467,
+      "risk": {
+        "theta": 0.9753776788711548,
+        "automation": 0.2030008826125331,
+        "realized_risk": 0.004347826086956497,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.4,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 10.471689224243164,
+          "strong_mass": 11.931650161743164,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.4,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.471689224243164,
+            "strong_mass": 11.931650161743164,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.517679214477539,
+            "strong_mass": 12.314169883728027,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 0.9,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.45332145690918,
+            "strong_mass": 12.222354125976562,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.375467300415039,
+            "strong_mass": 12.23536491394043,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.18744125366211,
+            "strong_mass": 12.162352371215821,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.7903225806451613
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.7714285714285715
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.9852941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.7372881355932204
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.7784090909090909
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.7526881720430108
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.8
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.9375
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.9042553191489362
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.7115384615384616
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.7792207792207793
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8032786885245902
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9601357082273113,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours3cal",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1133,
+      "acc": 0.7961165048543689,
+      "ece": 0.025673203992296504,
+      "brier": 0.27823150157928467,
+      "risk": {
+        "theta": 0.9753776788711548,
+        "automation": 0.2030008826125331,
+        "realized_risk": 0.004347826086956497,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.4,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 10.471689224243164,
+          "strong_mass": 11.931650161743164,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.4,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.471689224243164,
+            "strong_mass": 11.931650161743164,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.517679214477539,
+            "strong_mass": 12.314169883728027,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 0.9,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.45332145690918,
+            "strong_mass": 12.222354125976562,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.375467300415039,
+            "strong_mass": 12.23536491394043,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.18744125366211,
+            "strong_mass": 12.162352371215821,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.7903225806451613
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.7714285714285715
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.9852941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.7372881355932204
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.7784090909090909
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.7526881720430108
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.8
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.9375
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.9042553191489362
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.7115384615384616
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.7792207792207793
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8032786885245902
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9601357082273113,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1131,
+      "acc": 0.801945181255526,
+      "ece": 0.02884469903959416,
+      "brier": 0.27006593346595764,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.3,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.3,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.3,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.7222222222222222
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.8095238095238095
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.9565217391304348
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.7777777777777778
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.7757575757575758
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.7155172413793104
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.7698412698412699
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.9625
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8924731182795699
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.6949152542372882
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.8421052631578947
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.8775510204081632
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.932302092811647,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1131,
+      "acc": 0.8010610079575596,
+      "ece": 0.026621315460306286,
+      "brier": 0.27016782760620117,
+      "risk": {
+        "theta": 0.9584974050521851,
+        "automation": 0.28735632183908044,
+        "realized_risk": 0.009230769230769265,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.3,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 9.041666030883789,
+          "strong_mass": 11.936071395874023,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.3,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.041666030883789,
+            "strong_mass": 11.936071395874023,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.232915115356445,
+            "strong_mass": 12.38495330810547,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.3,
+            "a": 1.25,
+            "b": -6.0,
+            "weak_mass": 10.862063789367676,
+            "strong_mass": 12.282721519470215,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.563654327392578,
+            "strong_mass": 12.393454933166504,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.41037826538086,
+            "strong_mass": 12.250688934326172,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.7222222222222222
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.8095238095238095
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.9565217391304348
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.7777777777777778
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.7757575757575758
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.7155172413793104
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.7698412698412699
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.9625
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8709677419354839
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.7033898305084746
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.8421052631578947
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.8775510204081632
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9101283880171184,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1131,
+      "acc": 0.8010610079575596,
+      "ece": 0.026854712413961528,
+      "brier": 0.2701966166496277,
+      "risk": {
+        "theta": 0.9584302306175232,
+        "automation": 0.28735632183908044,
+        "realized_risk": 0.009230769230769265,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.3,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 8.916081428527832,
+          "strong_mass": 12.009134674072264,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.3,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 8.916081428527832,
+            "strong_mass": 12.009134674072264,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 10.83237419128418,
+            "strong_mass": 12.552888107299804,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.3,
+            "a": 1.25,
+            "b": -6.0,
+            "weak_mass": 10.809064674377442,
+            "strong_mass": 12.453792381286622,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.468280029296874,
+            "strong_mass": 12.628747940063477,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.13936290740967,
+            "strong_mass": 12.280842208862305,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.7222222222222222
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.8095238095238095
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.9565217391304348
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.7777777777777778
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.7757575757575758
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.7155172413793104
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.7698412698412699
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.9625
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8709677419354839
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.7033898305084746
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.8421052631578947
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.8775510204081632
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9101283880171184,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours1cal",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1131,
+      "acc": 0.8010610079575596,
+      "ece": 0.02685470846139888,
+      "brier": 0.2701966166496277,
+      "risk": {
+        "theta": 0.9584301114082336,
+        "automation": 0.28735632183908044,
+        "realized_risk": 0.009230769230769265,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.3,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 8.916081428527832,
+          "strong_mass": 12.009134674072264,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.3,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 8.916081428527832,
+            "strong_mass": 12.009134674072264,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 10.83237419128418,
+            "strong_mass": 12.552888107299804,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.3,
+            "a": 1.25,
+            "b": -6.0,
+            "weak_mass": 10.809064674377442,
+            "strong_mass": 12.453792381286622,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.468280029296874,
+            "strong_mass": 12.628747940063477,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.13936290740967,
+            "strong_mass": 12.280842208862305,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.7222222222222222
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.8095238095238095
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.9565217391304348
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.7777777777777778
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.7757575757575758
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.7155172413793104
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.7698412698412699
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.9625
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8709677419354839
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.7033898305084746
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.8421052631578947
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.8775510204081632
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9101283880171184,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1131,
+      "acc": 0.8010610079575596,
+      "ece": 0.02659755354956335,
+      "brier": 0.27016007900238037,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.0531972833930359,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.3,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 9.025089263916016,
+          "strong_mass": 11.915995025634766,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.3,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.025089263916016,
+            "strong_mass": 11.915995025634766,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.75,
+            "b": -5.5,
+            "weak_mass": 11.256379890441895,
+            "strong_mass": 12.376226615905761,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.3,
+            "a": 1.25,
+            "b": -6.0,
+            "weak_mass": 10.834439468383788,
+            "strong_mass": 12.257978820800782,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.546180152893067,
+            "strong_mass": 12.38443717956543,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.405643653869628,
+            "strong_mass": 12.232483673095704,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.7222222222222222
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.8095238095238095
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.9565217391304348
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.7777777777777778
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.7757575757575758
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.7155172413793104
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.7698412698412699
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.9625
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8709677419354839
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.7033898305084746
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.8421052631578947
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.8775510204081632
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9101283880171184,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours3cal",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1131,
+      "acc": 0.8010610079575596,
+      "ece": 0.02659755354956335,
+      "brier": 0.270160049200058,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.0531972833930359,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.3,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 9.025089263916016,
+          "strong_mass": 11.915995025634766,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.3,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.025089263916016,
+            "strong_mass": 11.915995025634766,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.75,
+            "b": -5.5,
+            "weak_mass": 11.256379890441895,
+            "strong_mass": 12.376226615905761,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.3,
+            "a": 1.25,
+            "b": -6.0,
+            "weak_mass": 10.834439468383788,
+            "strong_mass": 12.257978820800782,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.546180152893067,
+            "strong_mass": 12.38443717956543,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.405643653869628,
+            "strong_mass": 12.232483673095704,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.7222222222222222
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.8095238095238095
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.9565217391304348
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.7777777777777778
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.7757575757575758
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.7155172413793104
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.7698412698412699
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.9625
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8709677419354839
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.7033898305084746
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.8421052631578947
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.8775510204081632
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9101283880171184,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1141,
+      "acc": 0.7887817703768624,
+      "ece": 0.0221273497883214,
+      "brier": 0.28302526473999023,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.5,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.7272727272727273
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.7558139534883721
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.9615384615384616
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.7560975609756098
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.8108108108108109
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.7252747252747253
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.78125
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.948051948051948
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8387096774193549
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.6953125
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.6491228070175439
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8360655737704918
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9071933471933472,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1141,
+      "acc": 0.7922874671340929,
+      "ece": 0.022691793445951597,
+      "brier": 0.28332242369651794,
+      "risk": {
+        "theta": 0.954018235206604,
+        "automation": 0.24802804557405783,
+        "realized_risk": 0.014134275618374548,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.5,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 9.27869701385498,
+          "strong_mass": 11.875782012939453,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.27869701385498,
+            "strong_mass": 11.875782012939453,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.435808563232422,
+            "strong_mass": 12.354779815673828,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.2000000000000002,
+            "a": 1.25,
+            "b": -6.0,
+            "weak_mass": 11.523478698730468,
+            "strong_mass": 12.341297721862793,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.429758071899414,
+            "strong_mass": 12.458651542663574,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.294277954101563,
+            "strong_mass": 12.163886642456054,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.7272727272727273
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.7558139534883721
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.9615384615384616
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.7560975609756098
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.827027027027027
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.7252747252747253
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.78125
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.948051948051948
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8387096774193549
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.703125
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.6491228070175439
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8360655737704918
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9071933471933472,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1141,
+      "acc": 0.7914110429447853,
+      "ece": 0.022445624434665887,
+      "brier": 0.2834526002407074,
+      "risk": {
+        "theta": 0.95306795835495,
+        "automation": 0.24978089395267308,
+        "realized_risk": 0.01403508771929829,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.5,
+          "a": 0.25,
+          "b": -6.0,
+          "weak_mass": 9.400461196899414,
+          "strong_mass": 12.062827110290527,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.5,
+            "a": 0.25,
+            "b": -6.0,
+            "weak_mass": 9.400461196899414,
+            "strong_mass": 12.062827110290527,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.184790802001952,
+            "strong_mass": 12.588296127319335,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.2000000000000002,
+            "a": 1.0,
+            "b": -5.0,
+            "weak_mass": 11.325651168823242,
+            "strong_mass": 12.74463348388672,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.39568042755127,
+            "strong_mass": 12.717846870422363,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.004534721374512,
+            "strong_mass": 12.372147560119629,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.7272727272727273
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.7558139534883721
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.9615384615384616
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.7560975609756098
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.827027027027027
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.7252747252747253
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.78125
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.948051948051948
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8279569892473119
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.703125
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.6491228070175439
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8360655737704918
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9026504208014069,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours1cal",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1141,
+      "acc": 0.7914110429447853,
+      "ece": 0.02366480448076747,
+      "brier": 0.2827832102775574,
+      "risk": {
+        "theta": 0.9658851027488708,
+        "automation": 0.19894829097283084,
+        "realized_risk": 0.013215859030836996,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.5,
+          "a": 0.25,
+          "b": -6.0,
+          "weak_mass": 9.400461196899414,
+          "strong_mass": 12.062827110290527,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.5,
+            "a": 0.25,
+            "b": -6.0,
+            "weak_mass": 9.400461196899414,
+            "strong_mass": 12.062827110290527,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.184790802001952,
+            "strong_mass": 12.588296127319335,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.2000000000000002,
+            "a": 1.0,
+            "b": -5.0,
+            "weak_mass": 11.325651168823242,
+            "strong_mass": 12.74463348388672,
+            "on_grid_edge": false,
+            "T_post": 0.9
+          },
+          "5": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.39568042755127,
+            "strong_mass": 12.717846870422363,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.004534721374512,
+            "strong_mass": 12.372147560119629,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.7272727272727273
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.7558139534883721
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.9615384615384616
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.7560975609756098
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.827027027027027
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.7252747252747253
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.78125
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.948051948051948
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8279569892473119
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.703125
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.6491228070175439
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8360655737704918
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9026504208014069,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1141,
+      "acc": 0.7922874671340929,
+      "ece": 0.02338379788670384,
+      "brier": 0.28356868028640747,
+      "risk": {
+        "theta": 0.95306795835495,
+        "automation": 0.24978089395267308,
+        "realized_risk": 0.01403508771929829,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.5,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 9.287850379943848,
+          "strong_mass": 11.880231857299805,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.287850379943848,
+            "strong_mass": 11.880231857299805,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.472919082641601,
+            "strong_mass": 12.320057106018066,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.2000000000000002,
+            "a": 1.25,
+            "b": -5.5,
+            "weak_mass": 11.52012367248535,
+            "strong_mass": 12.31739387512207,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "5": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.4022216796875,
+            "strong_mass": 12.451557159423828,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.286381912231445,
+            "strong_mass": 12.151177597045898,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.7272727272727273
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.7558139534883721
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.9615384615384616
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.7560975609756098
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.827027027027027
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.7252747252747253
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.78125
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.948051948051948
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8387096774193549
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.703125
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.6491228070175439
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8360655737704918
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9071933471933472,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "ours3cal",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1141,
+      "acc": 0.7922874671340929,
+      "ece": 0.023985240121978498,
+      "brier": 0.2828846871852875,
+      "risk": {
+        "theta": 0.9669608473777771,
+        "automation": 0.1971954425942156,
+        "realized_risk": 0.013333333333333308,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.5,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 9.287850379943848,
+          "strong_mass": 11.880231857299805,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.287850379943848,
+            "strong_mass": 11.880231857299805,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "3": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.472919082641601,
+            "strong_mass": 12.320057106018066,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "4": {
+            "T": 1.2000000000000002,
+            "a": 1.25,
+            "b": -5.5,
+            "weak_mass": 11.52012367248535,
+            "strong_mass": 12.31739387512207,
+            "on_grid_edge": false,
+            "T_post": 0.9
+          },
+          "5": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.4022216796875,
+            "strong_mass": 12.451557159423828,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "6": {
+            "T": 1.5,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.286381912231445,
+            "strong_mass": 12.151177597045898,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.7272727272727273
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.7558139534883721
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.9615384615384616
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.7560975609756098
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.827027027027027
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.7252747252747253
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.78125
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.948051948051948
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.8387096774193549
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.703125
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.6491228070175439
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.8360655737704918
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.9071933471933472,
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B1@1000": {
+      "acc": [
+        0.7935550562516905,
+        0.005951469871887074
+      ],
+      "ece": [
+        0.026234963378916686,
+        0.0029397759507140244
+      ],
+      "brier": [
+        0.277121623357137,
+        0.005352972918026162
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.7964883266486739,
+        0.0035914197035248068
+      ],
+      "ece": [
+        0.024996130188320254,
+        0.0016745588185383233
+      ],
+      "brier": [
+        0.27723975976308185,
+        0.0054157079123774935
+      ]
+    },
+    "ours1@1000": {
+      "acc": [
+        0.7964903894299372,
+        0.003955970954394684
+      ],
+      "ece": [
+        0.024954194572372617,
+        0.0018506413119786236
+      ],
+      "brier": [
+        0.27728087703386944,
+        0.005450065340088543
+      ]
+    },
+    "ours1cal@1000": {
+      "acc": [
+        0.7964903894299372,
+        0.003955970954394684
+      ],
+      "ece": [
+        0.025360586603552258,
+        0.0013100564868872972
+      ],
+      "brier": [
+        0.27705774704615277,
+        0.0052008261985386885
+      ]
+    },
+    "ours3@1000": {
+      "acc": [
+        0.7964883266486739,
+        0.0035914197035248068
+      ],
+      "ece": [
+        0.025218185142854566,
+        0.0013508856305281091
+      ],
+      "brier": [
+        0.27732008695602417,
+        0.005511845097008388
+      ]
+    },
+    "ours3cal@1000": {
+      "acc": [
+        0.7964883266486739,
+        0.0035914197035248068
+      ],
+      "ece": [
+        0.025418665887946116,
+        0.0010815536959731416
+      ],
+      "brier": [
+        0.2770920793215434,
+        0.005256920218458936
+      ]
+    }
+  }
+}

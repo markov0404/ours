@@ -1,0 +1,3187 @@
+{
+  "dataset": "clinc",
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "rows": [
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06141886702992698,
+      "brier": 0.3623531460762024,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7522704444444445,
+        "auroc_conf_mass": 0.7522704444444445
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.765090909090909,
+      "ece": 0.05997947133129293,
+      "brier": 0.3621308505535126,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.736820411682128,
+          "strong_mass": 11.958442497253419,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.736820411682128,
+            "strong_mass": 11.958442497253419,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7522592222222223,
+        "auroc_conf_mass": 0.7765935555555555
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.765090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7652727272727273,
+      "ece": 0.060160333752632134,
+      "brier": 0.3621329963207245,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.238699531555175,
+          "strong_mass": 11.998797988891601,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.238699531555175,
+            "strong_mass": 11.998797988891601,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7522504444444443,
+        "auroc_conf_mass": 0.7331033333333333
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7652727272727273
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7652727272727273,
+      "ece": 0.06016036439619281,
+      "brier": 0.3621329367160797,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.224969291687012,
+          "strong_mass": 12.031644058227538,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.224969291687012,
+            "strong_mass": 12.031644058227538,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7522499999999999,
+        "auroc_conf_mass": 0.7333244444444444
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7652727272727273
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7652727272727273,
+      "ece": 0.06016039536757903,
+      "brier": 0.36213263869285583,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.193923187255859,
+          "strong_mass": 12.169689178466797,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.193923187255859,
+            "strong_mass": 12.169689178466797,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.752248,
+        "auroc_conf_mass": 0.7355322222222223
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7652727272727273
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.0453199155547402,
+      "brier": 0.36194467544555664,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675913333333334,
+        "auroc_conf_mass": 0.7675913333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.03861699276620689,
+      "brier": 0.36187028884887695,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.75,
+          "b": -6.0,
+          "weak_mass": 11.674452972412109,
+          "strong_mass": 12.00484733581543,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.75,
+            "b": -6.0,
+            "weak_mass": 11.674452972412109,
+            "strong_mass": 12.00484733581543,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7672668888888888,
+        "auroc_conf_mass": 0.790294
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7649090909090909,
+      "ece": 0.039570076937025245,
+      "brier": 0.36188799142837524,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.25,
+          "b": -5.0,
+          "weak_mass": 11.057554626464844,
+          "strong_mass": 12.296578407287598,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.25,
+            "b": -5.0,
+            "weak_mass": 11.057554626464844,
+            "strong_mass": 12.296578407287598,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676063333333333,
+        "auroc_conf_mass": 0.759893111111111
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7649090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7649090909090909,
+      "ece": 0.039433983955870985,
+      "brier": 0.36188721656799316,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.5,
+          "b": -5.5,
+          "weak_mass": 11.08266086578369,
+          "strong_mass": 12.283266639709472,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.5,
+            "b": -5.5,
+            "weak_mass": 11.08266086578369,
+            "strong_mass": 12.283266639709472,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675566666666668,
+        "auroc_conf_mass": 0.7599066666666667
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7649090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7649090909090909,
+      "ece": 0.036891454978422694,
+      "brier": 0.3619542121887207,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.5,
+          "b": -5.0,
+          "weak_mass": 11.29052734375,
+          "strong_mass": 12.244188499450683,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.5,
+            "b": -5.0,
+            "weak_mass": 11.29052734375,
+            "strong_mass": 12.244188499450683,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7674549999999999,
+        "auroc_conf_mass": 0.7607877777777778
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7649090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.0453199155547402,
+      "brier": 0.36194467544555664,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675913333333334,
+        "auroc_conf_mass": 0.7675913333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7654545454545455,
+      "ece": 0.04488912924853237,
+      "brier": 0.36190688610076904,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.693312454223634,
+          "strong_mass": 12.092983627319336,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.693312454223634,
+            "strong_mass": 12.092983627319336,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676006666666666,
+        "auroc_conf_mass": 0.7902248888888888
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7654545454545455
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7652727272727273,
+      "ece": 0.044706947245381094,
+      "brier": 0.3619113862514496,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.296464347839356,
+          "strong_mass": 12.201839447021484,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.296464347839356,
+            "strong_mass": 12.201839447021484,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676053333333334,
+        "auroc_conf_mass": 0.7599028888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7652727272727273
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.7652727272727273,
+      "ece": 0.04470702615651217,
+      "brier": 0.36191147565841675,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.293877792358398,
+          "strong_mass": 12.204353713989258,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.293877792358398,
+            "strong_mass": 12.204353713989258,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676055555555557,
+        "auroc_conf_mass": 0.7600531111111111
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7652727272727273
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 5500,
+      "acc": 0.765090909090909,
+      "ece": 0.044525243282318105,
+      "brier": 0.3619116544723511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9998333333333334,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.179113578796386,
+          "strong_mass": 12.277141189575195,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.179113578796386,
+            "strong_mass": 12.277141189575195,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676067777777777,
+        "auroc_conf_mass": 0.7601566666666666
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.765090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06141886702992698,
+      "brier": 0.3623531460762024,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7522704444444445,
+        "auroc_conf_mass": 0.7522704444444445
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7672727272727272,
+      "ece": 0.04271134562790393,
+      "brier": 0.36018919944763184,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 1.0,
+          "b": -6.0,
+          "weak_mass": 11.587870788574218,
+          "strong_mass": 12.15739803314209,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.587870788574218,
+            "strong_mass": 12.15739803314209,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7512544444444444,
+        "auroc_conf_mass": 0.7960877777777777
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7672727272727272
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7672727272727272,
+      "ece": 0.05004784757711671,
+      "brier": 0.3608354330062866,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -4.0,
+          "weak_mass": 10.9554931640625,
+          "strong_mass": 12.17222900390625,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -4.0,
+            "weak_mass": 10.9554931640625,
+            "strong_mass": 12.17222900390625,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7524509999999999,
+        "auroc_conf_mass": 0.7449008888888888
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7672727272727272
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7672727272727272,
+      "ece": 0.0500508977662433,
+      "brier": 0.36083221435546875,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.0,
+          "b": -4.0,
+          "weak_mass": 10.973281860351562,
+          "strong_mass": 12.174372291564941,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.0,
+            "b": -4.0,
+            "weak_mass": 10.973281860351562,
+            "strong_mass": 12.174372291564941,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7524508888888889,
+        "auroc_conf_mass": 0.7449037777777778
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7672727272727272
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.767090909090909,
+      "ece": 0.0373474862169136,
+      "brier": 0.3597630560398102,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.8,
+          "a": 0.5,
+          "b": -4.5,
+          "weak_mass": 11.140106773376464,
+          "strong_mass": 12.14094944000244,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.8,
+            "a": 0.5,
+            "b": -4.5,
+            "weak_mass": 11.140106773376464,
+            "strong_mass": 12.14094944000244,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7519275555555556,
+        "auroc_conf_mass": 0.7423817777777778
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.767090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.0453199155547402,
+      "brier": 0.36194467544555664,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675913333333334,
+        "auroc_conf_mass": 0.7675913333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7652727272727273,
+      "ece": 0.03791924757849083,
+      "brier": 0.3617514967918396,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.5,
+          "b": -5.0,
+          "weak_mass": 11.55896224975586,
+          "strong_mass": 12.222092628479004,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.5,
+            "b": -5.0,
+            "weak_mass": 11.55896224975586,
+            "strong_mass": 12.222092628479004,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7677213333333334,
+        "auroc_conf_mass": 0.8060551111111112
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7652727272727273
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7656363636363637,
+      "ece": 0.045100007078864364,
+      "brier": 0.36189109086990356,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 10.441987609863281,
+          "strong_mass": 12.209341239929199,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.441987609863281,
+            "strong_mass": 12.209341239929199,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.767623,
+        "auroc_conf_mass": 0.7668173333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7656363636363637
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7656363636363637,
+      "ece": 0.04510021393949336,
+      "brier": 0.361890971660614,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 10.472779464721679,
+          "strong_mass": 12.203927993774414,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.472779464721679,
+            "strong_mass": 12.203927993774414,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676237777777778,
+        "auroc_conf_mass": 0.7668975555555555
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7656363636363637
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7661818181818182,
+      "ece": 0.039305059718814754,
+      "brier": 0.3617059588432312,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -4.0,
+          "weak_mass": 10.75338020324707,
+          "strong_mass": 12.155336952209472,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -4.0,
+            "weak_mass": 10.75338020324707,
+            "strong_mass": 12.155336952209472,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7678065555555555,
+        "auroc_conf_mass": 0.7648322222222222
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7661818181818182
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.0453199155547402,
+      "brier": 0.36194467544555664,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675913333333334,
+        "auroc_conf_mass": 0.7675913333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7665454545454545,
+      "ece": 0.04025656685504046,
+      "brier": 0.3616751730442047,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.75,
+          "b": -6.0,
+          "weak_mass": 11.565529251098633,
+          "strong_mass": 12.1133207321167,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.75,
+            "b": -6.0,
+            "weak_mass": 11.565529251098633,
+            "strong_mass": 12.1133207321167,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7674594444444442,
+        "auroc_conf_mass": 0.8025051111111111
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7665454545454545
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7665454545454545,
+      "ece": 0.04025893398035654,
+      "brier": 0.3616662621498108,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -4.0,
+          "weak_mass": 10.728533935546874,
+          "strong_mass": 12.195596885681152,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -4.0,
+            "weak_mass": 10.728533935546874,
+            "strong_mass": 12.195596885681152,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676196666666666,
+        "auroc_conf_mass": 0.7637051111111111
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7665454545454545
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7665454545454545,
+      "ece": 0.04025914990360085,
+      "brier": 0.3616642951965332,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -4.0,
+          "weak_mass": 10.731478881835937,
+          "strong_mass": 12.216655731201172,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -4.0,
+            "weak_mass": 10.731478881835937,
+            "strong_mass": 12.216655731201172,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7676184444444446,
+        "auroc_conf_mass": 0.7637917777777778
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7665454545454545
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 5500,
+      "acc": 0.7665454545454545,
+      "ece": 0.03856842420317908,
+      "brier": 0.36159420013427734,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.999875,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.75,
+          "b": -5.5,
+          "weak_mass": 10.736240196228028,
+          "strong_mass": 12.160903167724609,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.75,
+            "b": -5.5,
+            "weak_mass": 10.736240196228028,
+            "strong_mass": 12.160903167724609,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7670813333333333,
+        "auroc_conf_mass": 0.7603271111111112
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7665454545454545
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.0453199155547402,
+      "brier": 0.36194467544555664,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675913333333334,
+        "auroc_conf_mass": 0.7675913333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7672727272727272,
+      "ece": 0.05246706943620334,
+      "brier": 0.3597908020019531,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 1.25,
+          "b": -5.5,
+          "weak_mass": 11.410658264160157,
+          "strong_mass": 12.37075424194336,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 1.25,
+            "b": -5.5,
+            "weak_mass": 11.410658264160157,
+            "strong_mass": 12.37075424194336,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7712946666666668,
+        "auroc_conf_mass": 0.8327857777777778
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7672727272727272
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7669090909090909,
+      "ece": 0.04473355850577355,
+      "brier": 0.36063557863235474,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -3.0,
+          "weak_mass": 10.498987007141114,
+          "strong_mass": 12.244245147705078,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -3.0,
+            "weak_mass": 10.498987007141114,
+            "strong_mass": 12.244245147705078,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7720848888888889,
+        "auroc_conf_mass": 0.7894242222222221
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7669090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7669090909090909,
+      "ece": 0.044974601209163655,
+      "brier": 0.3605957329273224,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -3.0,
+          "weak_mass": 10.500573348999025,
+          "strong_mass": 12.261846733093261,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -3.0,
+            "weak_mass": 10.500573348999025,
+            "strong_mass": 12.261846733093261,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7721863333333333,
+        "auroc_conf_mass": 0.790366
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7669090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7676363636363637,
+      "ece": 0.04711958328160371,
+      "brier": 0.36034584045410156,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.5,
+          "b": -4.0,
+          "weak_mass": 10.584857940673828,
+          "strong_mass": 12.27223243713379,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.5,
+            "b": -4.0,
+            "weak_mass": 10.584857940673828,
+            "strong_mass": 12.27223243713379,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7716637777777777,
+        "auroc_conf_mass": 0.7979911111111111
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7676363636363637
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.0453199155547402,
+      "brier": 0.36194467544555664,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675913333333334,
+        "auroc_conf_mass": 0.7675913333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7676363636363637,
+      "ece": 0.07327071163600142,
+      "brier": 0.3602684736251831,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 1.0,
+          "b": -4.5,
+          "weak_mass": 11.384663391113282,
+          "strong_mass": 12.392162322998047,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 1.0,
+            "b": -4.5,
+            "weak_mass": 11.384663391113282,
+            "strong_mass": 12.392162322998047,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.774576,
+        "auroc_conf_mass": 0.8392451111111112
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7676363636363637
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.767090909090909,
+      "ece": 0.05619865060665388,
+      "brier": 0.36094996333122253,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 1.25,
+          "b": -5.5,
+          "weak_mass": 10.518742942810059,
+          "strong_mass": 12.290190505981446,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 1.25,
+            "b": -5.5,
+            "weak_mass": 10.518742942810059,
+            "strong_mass": 12.290190505981446,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.768282888888889,
+        "auroc_conf_mass": 0.7905302222222222
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.767090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7672727272727272,
+      "ece": 0.05613960789550436,
+      "brier": 0.3608510196208954,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 1.25,
+          "b": -5.5,
+          "weak_mass": 10.499532890319824,
+          "strong_mass": 12.288356018066406,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 1.25,
+            "b": -5.5,
+            "weak_mass": 10.499532890319824,
+            "strong_mass": 12.288356018066406,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7683755555555556,
+        "auroc_conf_mass": 0.7916915555555556
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7672727272727272
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.768,
+      "ece": 0.06389496326852928,
+      "brier": 0.3608364760875702,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.5,
+          "b": -3.5,
+          "weak_mass": 10.546453857421875,
+          "strong_mass": 12.31545467376709,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.5,
+            "b": -3.5,
+            "weak_mass": 10.546453857421875,
+            "strong_mass": 12.31545467376709,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7727182222222222,
+        "auroc_conf_mass": 0.7971953333333333
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.768
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.06314144069227305,
+      "brier": 0.3683913052082062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7814728888888889,
+        "auroc_conf_mass": 0.7814728888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7647272727272727,
+      "ece": 0.0453199155547402,
+      "brier": 0.36194467544555664,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7675913333333334,
+        "auroc_conf_mass": 0.7675913333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7647272727272727
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7681818181818182,
+      "ece": 0.06693812842260706,
+      "brier": 0.35994434356689453,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.75,
+          "b": -4.0,
+          "weak_mass": 11.459220886230469,
+          "strong_mass": 12.380489730834961,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.75,
+            "b": -4.0,
+            "weak_mass": 11.459220886230469,
+            "strong_mass": 12.380489730834961,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.775136888888889,
+        "auroc_conf_mass": 0.8362568888888889
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7681818181818182
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7669090909090909,
+      "ece": 0.04812469337203288,
+      "brier": 0.3607613742351532,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.75,
+          "b": -4.5,
+          "weak_mass": 10.433893966674805,
+          "strong_mass": 12.296407318115234,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.75,
+            "b": -4.5,
+            "weak_mass": 10.433893966674805,
+            "strong_mass": 12.296407318115234,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7705562222222222,
+        "auroc_conf_mass": 0.7864035555555555
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7669090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.7669090909090909,
+      "ece": 0.05264651682431045,
+      "brier": 0.3609278202056885,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.0,
+          "b": -2.5,
+          "weak_mass": 10.444635009765625,
+          "strong_mass": 12.298081970214843,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.0,
+            "b": -2.5,
+            "weak_mass": 10.444635009765625,
+            "strong_mass": 12.298081970214843,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7743051111111112,
+        "auroc_conf_mass": 0.7876973333333334
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.7669090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "ours2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.767090909090909,
+      "ece": 0.05699766843562778,
+      "brier": 0.3606806993484497,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.9999,
+        "alpha": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 0.9,
+          "a": 0.25,
+          "b": -3.0,
+          "weak_mass": 10.542813301086426,
+          "strong_mass": 12.31004295349121,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "151": {
+            "T": 0.9,
+            "a": 0.25,
+            "b": -3.0,
+            "weak_mass": 10.542813301086426,
+            "strong_mass": 12.31004295349121,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 1,
+      "oos": {
+        "auroc_conf": 0.7743615555555556,
+        "auroc_conf_mass": 0.7898480000000001
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.767090909090909
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B0@0": {
+      "acc": [
+        0.7647272727272728,
+        1.1102230246251565e-16
+      ],
+      "ece": [
+        0.06314144069227305,
+        0.0
+      ],
+      "brier": [
+        0.3683913052082062,
+        0.0
+      ]
+    },
+    "B0@50": {
+      "acc": [
+        0.7647272727272728,
+        1.1102230246251565e-16
+      ],
+      "ece": [
+        0.06314144069227305,
+        0.0
+      ],
+      "brier": [
+        0.3683913052082062,
+        0.0
+      ]
+    },
+    "B0@200": {
+      "acc": [
+        0.7647272727272728,
+        1.1102230246251565e-16
+      ],
+      "ece": [
+        0.06314144069227305,
+        0.0
+      ],
+      "brier": [
+        0.3683913052082062,
+        0.0
+      ]
+    },
+    "B0@1000": {
+      "acc": [
+        0.7647272727272728,
+        1.1102230246251565e-16
+      ],
+      "ece": [
+        0.06314144069227305,
+        0.0
+      ],
+      "brier": [
+        0.3683913052082062,
+        0.0
+      ]
+    },
+    "B1@50": {
+      "acc": [
+        0.7647272727272728,
+        1.1102230246251565e-16
+      ],
+      "ece": [
+        0.05068623271313579,
+        0.007589118505398496
+      ],
+      "brier": [
+        0.36208083232243854,
+        0.00019255490189677121
+      ]
+    },
+    "B1@200": {
+      "acc": [
+        0.7647272727272728,
+        1.1102230246251565e-16
+      ],
+      "ece": [
+        0.05068623271313579,
+        0.007589118505398496
+      ],
+      "brier": [
+        0.36208083232243854,
+        0.00019255490189677121
+      ]
+    },
+    "B1@1000": {
+      "acc": [
+        0.7647272727272728,
+        1.1102230246251565e-16
+      ],
+      "ece": [
+        0.04531991555474021,
+        6.938893903907228e-18
+      ],
+      "brier": [
+        0.36194467544555664,
+        0.0
+      ]
+    },
+    "B2@50": {
+      "acc": [
+        0.765090909090909,
+        0.00029690784761011134
+      ],
+      "ece": [
+        0.04782853111534407,
+        0.008965449797673369
+      ],
+      "brier": [
+        0.36196934183438617,
+        0.00011517707953957111
+      ]
+    },
+    "B2@200": {
+      "acc": [
+        0.7663636363636362,
+        0.0008265564664839462
+      ],
+      "ece": [
+        0.04029572002047841,
+        0.00195656172175751
+      ],
+      "brier": [
+        0.3612052897612254,
+        0.0007191596821509729
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.7676969696969697,
+        0.00037360084866480805
+      ],
+      "ece": [
+        0.06422530316493728,
+        0.00870698753313656
+      ],
+      "brier": [
+        0.36000120639801025,
+        0.00019911065781228705
+      ]
+    },
+    "B3@50": {
+      "acc": [
+        0.7651515151515151,
+        0.00017141982574223633
+      ],
+      "ece": [
+        0.04814578597834616,
+        0.008750576278419879
+      ],
+      "brier": [
+        0.3619774580001831,
+        0.00011039612403913209
+      ]
+    },
+    "B3@200": {
+      "acc": [
+        0.7664848484848484,
+        0.0006694158192234338
+      ],
+      "ece": [
+        0.04513559621211254,
+        0.003996386475389405
+      ],
+      "brier": [
+        0.361464262008667,
+        0.0004540238055584444
+      ]
+    },
+    "B3@1000": {
+      "acc": [
+        0.766969696969697,
+        8.5709912871092e-05
+      ],
+      "ece": [
+        0.04968563416148677,
+        0.0048089836993937965
+      ],
+      "brier": [
+        0.36078230539957684,
+        0.00012919757467704413
+      ]
+    },
+    "ours1@50": {
+      "acc": [
+        0.7651515151515151,
+        0.00017141982574223633
+      ],
+      "ece": [
+        0.04810045816952532,
+        0.008795159546002018
+      ],
+      "brier": [
+        0.3619772096474965,
+        0.00011056013683112474
+      ]
+    },
+    "ours1@200": {
+      "acc": [
+        0.7664848484848484,
+        0.0006694158192234338
+      ],
+      "ece": [
+        0.04513675386977917,
+        0.0039975478255442
+      ],
+      "brier": [
+        0.36146249373753864,
+        0.0004551810112024016
+      ]
+    },
+    "ours1@1000": {
+      "acc": [
+        0.7670303030303031,
+        0.000171419825742184
+      ],
+      "ece": [
+        0.05125357530965949,
+        0.00466330055675425
+      ],
+      "brier": [
+        0.36079152425130206,
+        0.00014195131645610475
+      ]
+    },
+    "ours2@50": {
+      "acc": [
+        0.765090909090909,
+        0.0001484539238050783
+      ],
+      "ece": [
+        0.04719236454277328,
+        0.009684904011639513
+      ],
+      "brier": [
+        0.3619995017846425,
+        9.573180262969548e-05
+      ]
+    },
+    "ours2@200": {
+      "acc": [
+        0.7666060606060605,
+        0.00037360084866476604
+      ],
+      "ece": [
+        0.03840699004630247,
+        0.0008072873276561179
+      ],
+      "brier": [
+        0.3610210716724396,
+        0.0008907206824482858
+      ]
+    },
+    "ours2@1000": {
+      "acc": [
+        0.7675757575757576,
+        0.00037360084866481407
+      ],
+      "ece": [
+        0.05600407166192026,
+        0.0068844641204176635
+      ],
+      "brier": [
+        0.36062100529670715,
+        0.00020470037626959793
+      ]
+    }
+  }
+}

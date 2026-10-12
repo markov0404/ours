@@ -1,0 +1,31 @@
+{
+  "p50_ms": 2.4408505123574287,
+  "p95_ms": 3.501636904547922,
+  "mean_ms": 2.618185523780994,
+  "components": {
+    "phi_ms_p50": 0.47205848386511207,
+    "memory_ms_p50": 1.384557515848428,
+    "fusion_ms_p50": 0.12473549577407539,
+    "coherence_ms_p50": 0.0927560031414032,
+    "router_policy_ms_p50": 0.35449748975224793
+  },
+  "components_p95": {
+    "phi_ms_p95": 0.6893778627272695,
+    "memory_ms_p95": 1.9272095320047808,
+    "fusion_ms_p95": 0.1890577404992655,
+    "coherence_ms_p95": 0.1612010528333485,
+    "router_policy_ms_p95": 0.5855674826307222
+  },
+  "n_mem": 21000,
+  "d": 2560,
+  "k": 32,
+  "iters": 2000,
+  "questions": 3,
+  "candidates": 200,
+  "device": "cuda",
+  "machine": {
+    "processor": "x86_64",
+    "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+    "cpu_count": 208
+  }
+}

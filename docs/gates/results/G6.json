@@ -1,0 +1,44 @@
+{
+  "gate": "G6",
+  "zone": "C",
+  "detail": {
+    "ours": {
+      "acc": 0.8744588744588745,
+      "ece": 0.04003155747533362,
+      "brier": 0.18467514216899872
+    },
+    "backbone": {
+      "acc": 0.8744588744588745,
+      "ece": 0.01874395985623976,
+      "brier": 0.18291589617729187
+    }
+  },
+  "inputs": {
+    "B0": {
+      "acc": 0.8744588744588745,
+      "ece": 0.01874395985623976,
+      "brier": 0.18291589617729187
+    },
+    "ours1": {
+      "acc": 0.8744588744588745,
+      "ece": 0.04003155747533362,
+      "brier": 0.18467514216899872
+    }
+  },
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "external_pool": [
+    "banking77",
+    "clinc",
+    "massive"
+  ],
+  "n_pool": 11998,
+  "pool_size": 11998,
+  "memory_coverage": 0.0,
+  "mass_mean": 0.0,
+  "trivial": true,
+  "audit": {
+    "overlaps": 297,
+    "exact": 0,
+    "excluded_in_prepare": 2
+  }
+}

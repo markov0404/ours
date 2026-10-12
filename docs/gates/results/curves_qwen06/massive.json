@@ -1,0 +1,515 @@
+{
+  "dataset": "massive",
+  "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+  "rows": [
+    {
+      "dataset": "massive",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5948,
+      "acc": 0.34532616005379957,
+      "ece": 0.40184041185814334,
+      "brier": 1.0046460628509521,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.5659045057162071,
+        "incoherence_after": 0.05010087424344317,
+        "acc_after": 0.3310356422326833,
+        "map_fallbacks": 149
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.34532616005379957
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "massive",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5948,
+      "acc": 0.34532616005379957,
+      "ece": 0.40184041185814334,
+      "brier": 1.0046460628509521,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.5659045057162071,
+        "incoherence_after": 0.05010087424344317,
+        "acc_after": 0.3310356422326833,
+        "map_fallbacks": 149
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.34532616005379957
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "massive",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5948,
+      "acc": 0.34532616005379957,
+      "ece": 0.40184041185814334,
+      "brier": 1.0046460628509521,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.5659045057162071,
+        "incoherence_after": 0.05010087424344317,
+        "acc_after": 0.3310356422326833,
+        "map_fallbacks": 149
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.34532616005379957
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "massive",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5948,
+      "acc": 0.34532616005379957,
+      "ece": 0.40184041185814334,
+      "brier": 1.0046460628509521,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.5659045057162071,
+        "incoherence_after": 0.05010087424344317,
+        "acc_after": 0.3310356422326833,
+        "map_fallbacks": 149
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.34532616005379957
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.6197041022192333,
+      "ece": 0.20107780381531107,
+      "brier": 0.5684149265289307,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.11292814500684362,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.22125084061869535,
+        "incoherence_after": 0.0003362474781439139,
+        "acc_after": 0.6185272360457297,
+        "map_fallbacks": 1
+      },
+      "fusion": {
+        "default": {
+          "T": 3.0,
+          "a": 3.5,
+          "b": -5.5,
+          "weak_mass": 11.189271926879883,
+          "strong_mass": 12.25612735748291,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "18": {
+            "T": 3.0,
+            "a": 3.5,
+            "b": -5.5,
+            "weak_mass": 11.189271926879883,
+            "strong_mass": 12.25612735748291,
+            "on_grid_edge": true
+          },
+          "60": {
+            "T": 3.0,
+            "a": 3.0,
+            "b": -4.5,
+            "weak_mass": 11.097308158874512,
+            "strong_mass": 12.249965286254882,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.6197041022192333
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5948,
+      "acc": 0.34532616005379957,
+      "ece": 0.40184041185814334,
+      "brier": 1.0046460628509521,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.5659045057162071,
+        "incoherence_after": 0.05010087424344317,
+        "acc_after": 0.3310356422326833,
+        "map_fallbacks": 149
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.34532616005379957
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.6141560188298588,
+      "ece": 0.20135032802960504,
+      "brier": 0.5766844749450684,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.07922192884559738,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.214862138533961,
+        "incoherence_after": 0.0,
+        "acc_after": 0.625252185608608,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 3.0,
+          "a": 3.5,
+          "b": -5.5,
+          "weak_mass": 11.204309463500977,
+          "strong_mass": 12.33043212890625,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "18": {
+            "T": 3.0,
+            "a": 3.5,
+            "b": -5.5,
+            "weak_mass": 11.204309463500977,
+            "strong_mass": 12.33043212890625,
+            "on_grid_edge": true
+          },
+          "60": {
+            "T": 3.0,
+            "a": 3.5,
+            "b": -6.0,
+            "weak_mass": 11.184383392333984,
+            "strong_mass": 12.252388000488281,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.6141560188298588
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5948,
+      "acc": 0.34532616005379957,
+      "ece": 0.40184041185814334,
+      "brier": 1.0046460628509521,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.5659045057162071,
+        "incoherence_after": 0.05010087424344317,
+        "acc_after": 0.3310356422326833,
+        "map_fallbacks": 149
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.34532616005379957
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.6296234028244788,
+      "ece": 0.21091184832741927,
+      "brier": 0.5658966898918152,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.07922192884559738,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.21519838601210492,
+        "incoherence_after": 0.0003362474781439139,
+        "acc_after": 0.6425689307330195,
+        "map_fallbacks": 1
+      },
+      "fusion": {
+        "default": {
+          "T": 3.0,
+          "a": 3.0,
+          "b": -5.0,
+          "weak_mass": 11.253598022460938,
+          "strong_mass": 12.252432823181152,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "18": {
+            "T": 2.9000000000000004,
+            "a": 3.5,
+            "b": -5.5,
+            "weak_mass": 11.185711288452149,
+            "strong_mass": 12.217287826538087,
+            "on_grid_edge": false
+          },
+          "60": {
+            "T": 3.0,
+            "a": 3.0,
+            "b": -5.0,
+            "weak_mass": 11.253598022460938,
+            "strong_mass": 12.252432823181152,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 14,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.6296234028244788
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B0@0": {
+      "acc": [
+        0.34532616005379957,
+        0.0
+      ],
+      "ece": [
+        0.40184041185814334,
+        0.0
+      ],
+      "brier": [
+        1.0046460628509521,
+        0.0
+      ]
+    },
+    "B0@1000": {
+      "acc": [
+        0.34532616005379957,
+        0.0
+      ],
+      "ece": [
+        0.40184041185814334,
+        0.0
+      ],
+      "brier": [
+        1.0046460628509521,
+        0.0
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.6211611746245236,
+        0.006398035474787065
+      ],
+      "ece": [
+        0.20444666005744513,
+        0.004572932092687915
+      ],
+      "brier": [
+        0.5703320304552714,
+        0.0046080033410789
+      ]
+    }
+  }
+}

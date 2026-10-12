@@ -1,0 +1,35 @@
+{
+  "gate": "R2-F",
+  "zone": "A",
+  "detail": {
+    "acc_http_memory": 0.8244274809160306,
+    "acc_ladder_ours1": 0.8244274809160306,
+    "acc_http_benchmark": 0.8091603053435115,
+    "p50_memory_s": 0.2151924967765808,
+    "p50_benchmark_s": 0.21362016536295414,
+    "errors": 0,
+    "memory_hits": 131
+  },
+  "inputs": {
+    "benchmark": {
+      "acc": 0.8091603053435115,
+      "p50_s": 0.21362016536295414,
+      "errors": 1,
+      "memory_hits": 0
+    },
+    "memory": {
+      "acc": 0.8244274809160306,
+      "p50_s": 0.2151924967765808,
+      "errors": 0,
+      "memory_hits": 131
+    }
+  },
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "n": 1000,
+  "n_test": 131,
+  "client": "HTTP propio con question_key declarada",
+  "ledger": {
+    "text": "R2-F corrido: zona A [acc HTTP memoria 0.824 vs escalera 0.824 (benchmark 0.809); p50 215 vs 214 ms; errores 0]",
+    "sustiene": true
+  }
+}

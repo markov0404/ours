@@ -1,0 +1,1280 @@
+{
+  "dataset": "massive",
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "rows": [
+    {
+      "dataset": "massive",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.6995628782784129,
+      "ece": 0.04383341556824567,
+      "brier": 0.4268578290939331,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.3426361802286483,
+        "incoherence_after": 0.01109616677874916,
+        "acc_after": 0.7829522528581035,
+        "map_fallbacks": 33
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.6995628782784129
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7434431741761937,
+      "ece": 0.12718413091279068,
+      "brier": 0.3776904046535492,
+      "risk": {
+        "theta": 0.7871593236923218,
+        "automation": 0.24865501008742436,
+        "realized_risk": 0.027045300878972278,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.27605917955615333,
+        "incoherence_after": 0.0033624747814391394,
+        "acc_after": 0.808338937457969,
+        "map_fallbacks": 10
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.0,
+          "b": -5.0,
+          "weak_mass": 11.209236145019531,
+          "strong_mass": 12.274110794067383,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 2.0,
+            "b": -5.0,
+            "weak_mass": 11.209236145019531,
+            "strong_mass": 12.274110794067383,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 11.124617385864259,
+            "strong_mass": 12.25339641571045,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7434431741761937
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7135171486213854,
+      "ece": 0.08527039516549345,
+      "brier": 0.39937153458595276,
+      "risk": {
+        "theta": 0.8563706874847412,
+        "automation": 0.1422326832548756,
+        "realized_risk": 0.021276595744680882,
+        "bound": 0.03915588747217139,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.3221250840618695,
+        "incoherence_after": 0.008742434431741762,
+        "acc_after": 0.7979152656355077,
+        "map_fallbacks": 26
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -1.0,
+          "weak_mass": 10.574113845825195,
+          "strong_mass": 12.227045059204102,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.0,
+            "weak_mass": 10.574113845825195,
+            "strong_mass": 12.227045059204102,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -2.0,
+            "weak_mass": 10.5779598236084,
+            "strong_mass": 12.279236602783204,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7135171486213854
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours1cal",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7135171486213854,
+      "ece": 0.06271402607593626,
+      "brier": 0.39793580770492554,
+      "risk": {
+        "theta": 0.8724697232246399,
+        "automation": 0.39710827168796237,
+        "realized_risk": 0.03344623200677388,
+        "bound": 0.04855993289793824,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.3221250840618695,
+        "incoherence_after": 0.008742434431741762,
+        "acc_after": 0.797074646940148,
+        "map_fallbacks": 26
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -1.0,
+          "weak_mass": 10.574113845825195,
+          "strong_mass": 12.227045059204102,
+          "on_grid_edge": true,
+          "T_post": 0.7
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.0,
+            "weak_mass": 10.574113845825195,
+            "strong_mass": 12.227045059204102,
+            "on_grid_edge": true,
+            "T_post": 0.7
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -2.0,
+            "weak_mass": 10.5779598236084,
+            "strong_mass": 12.279236602783204,
+            "on_grid_edge": true,
+            "T_post": 0.9
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7135171486213854
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7483187626092804,
+      "ece": 0.1326562654798213,
+      "brier": 0.37443405389785767,
+      "risk": {
+        "theta": 0.7884926199913025,
+        "automation": 0.24377942165433758,
+        "realized_risk": 0.026206896551724146,
+        "bound": 0.03984660598698608,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.2679892400806994,
+        "incoherence_after": 0.003026227303295225,
+        "acc_after": 0.8100201748486886,
+        "map_fallbacks": 9
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.25,
+          "b": -5.5,
+          "weak_mass": 11.186017990112305,
+          "strong_mass": 12.276330947875977,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 2.25,
+            "b": -5.5,
+            "weak_mass": 11.186017990112305,
+            "strong_mass": 12.276330947875977,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 11.116337966918945,
+            "strong_mass": 12.231456756591797,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7483187626092804
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours3cal",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7483187626092804,
+      "ece": 0.04112580040170388,
+      "brier": 0.34915000200271606,
+      "risk": {
+        "theta": 0.9049026966094971,
+        "automation": 0.339778076664425,
+        "realized_risk": 0.028203859475507187,
+        "bound": 0.03820631614472091,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.2679892400806994,
+        "incoherence_after": 0.003026227303295225,
+        "acc_after": 0.8117014122394082,
+        "map_fallbacks": 9
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.25,
+          "b": -5.5,
+          "weak_mass": 11.186017990112305,
+          "strong_mass": 12.276330947875977,
+          "on_grid_edge": false,
+          "T_post": 0.6
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 2.25,
+            "b": -5.5,
+            "weak_mass": 11.186017990112305,
+            "strong_mass": 12.276330947875977,
+            "on_grid_edge": false,
+            "T_post": 0.6
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 11.116337966918945,
+            "strong_mass": 12.231456756591797,
+            "on_grid_edge": true,
+            "T_post": 0.8
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7483187626092804
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.6995628782784129,
+      "ece": 0.04383341556824567,
+      "brier": 0.4268578290939331,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.3426361802286483,
+        "incoherence_after": 0.01109616677874916,
+        "acc_after": 0.7829522528581035,
+        "map_fallbacks": 33
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.6995628782784129
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.734364492266308,
+      "ece": 0.11839496979907045,
+      "brier": 0.38193801045417786,
+      "risk": {
+        "theta": 0.8120936155319214,
+        "automation": 0.18880295897780766,
+        "realized_risk": 0.021371326803205748,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.2898453261600538,
+        "incoherence_after": 0.004707464694014795,
+        "acc_after": 0.8066577000672495,
+        "map_fallbacks": 14
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.0,
+          "b": -5.0,
+          "weak_mass": 11.133665084838867,
+          "strong_mass": 12.272329330444336,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 2.0,
+            "b": -5.0,
+            "weak_mass": 11.133665084838867,
+            "strong_mass": 12.272329330444336,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 11.226163864135742,
+            "strong_mass": 12.254722595214844,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.734364492266308
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7121721587088097,
+      "ece": 0.07988813866703963,
+      "brier": 0.40030258893966675,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.05813048602331033,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.32548755884330866,
+        "incoherence_after": 0.008069939475453935,
+        "acc_after": 0.7962340282447882,
+        "map_fallbacks": 24
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -1.0,
+          "weak_mass": 10.605978012084961,
+          "strong_mass": 12.299721145629883,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.0,
+            "weak_mass": 10.605978012084961,
+            "strong_mass": 12.299721145629883,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -2.0,
+            "weak_mass": 10.487297058105469,
+            "strong_mass": 12.274224281311035,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7121721587088097
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours1cal",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7121721587088097,
+      "ece": 0.06355599629383964,
+      "brier": 0.39930790662765503,
+      "risk": {
+        "theta": 0.8895242810249329,
+        "automation": 0.32985877605917957,
+        "realized_risk": 0.023955147808358834,
+        "bound": 0.04268748013075396,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.32548755884330866,
+        "incoherence_after": 0.008069939475453935,
+        "acc_after": 0.7964021519838601,
+        "map_fallbacks": 24
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -1.0,
+          "weak_mass": 10.605978012084961,
+          "strong_mass": 12.299721145629883,
+          "on_grid_edge": true,
+          "T_post": 0.7
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.0,
+            "weak_mass": 10.605978012084961,
+            "strong_mass": 12.299721145629883,
+            "on_grid_edge": true,
+            "T_post": 0.7
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -2.0,
+            "weak_mass": 10.487297058105469,
+            "strong_mass": 12.274224281311035,
+            "on_grid_edge": true,
+            "T_post": 0.9
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7121721587088097
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.741930060524546,
+      "ece": 0.12703211856949584,
+      "brier": 0.37829288840293884,
+      "risk": {
+        "theta": 0.8129907846450806,
+        "automation": 0.18661735036987223,
+        "realized_risk": 0.02072072072072073,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.2753866845998655,
+        "incoherence_after": 0.004371217215870881,
+        "acc_after": 0.8095158036314728,
+        "map_fallbacks": 13
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.25,
+          "b": -5.5,
+          "weak_mass": 11.178025054931641,
+          "strong_mass": 12.278202247619628,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 2.25,
+            "b": -5.5,
+            "weak_mass": 11.178025054931641,
+            "strong_mass": 12.278202247619628,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 11.225536346435547,
+            "strong_mass": 12.264938354492188,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.741930060524546
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours3cal",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.741930060524546,
+      "ece": 0.04374976005973878,
+      "brier": 0.3554670810699463,
+      "risk": {
+        "theta": 0.9224396347999573,
+        "automation": 0.25453934095494285,
+        "realized_risk": 0.023117569352708034,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.2753866845998655,
+        "incoherence_after": 0.004371217215870881,
+        "acc_after": 0.8132145258910558,
+        "map_fallbacks": 13
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.25,
+          "b": -5.5,
+          "weak_mass": 11.178025054931641,
+          "strong_mass": 12.278202247619628,
+          "on_grid_edge": false,
+          "T_post": 0.6
+        },
+        "by_k": {
+          "18": {
+            "T": 1.0,
+            "a": 2.25,
+            "b": -5.5,
+            "weak_mass": 11.178025054931641,
+            "strong_mass": 12.278202247619628,
+            "on_grid_edge": false,
+            "T_post": 0.6
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 11.225536346435547,
+            "strong_mass": 12.264938354492188,
+            "on_grid_edge": true,
+            "T_post": 0.8
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.741930060524546
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.6995628782784129,
+      "ece": 0.04203761803899424,
+      "brier": 0.4241165518760681,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.3426361802286483,
+        "incoherence_after": 0.01109616677874916,
+        "acc_after": 0.7827841291190316,
+        "map_fallbacks": 33
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.6995628782784129
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7609280430396772,
+      "ece": 0.15217139419586606,
+      "brier": 0.3754235804080963,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.05813048602331033,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.25521183591123064,
+        "incoherence_after": 0.006388702084734364,
+        "acc_after": 0.8080026899798252,
+        "map_fallbacks": 19
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.5,
+          "b": -3.0,
+          "weak_mass": 11.243381118774414,
+          "strong_mass": 12.234211921691895,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.1,
+            "a": 2.5,
+            "b": -6.0,
+            "weak_mass": 11.199133682250977,
+            "strong_mass": 12.285273361206055,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.5,
+            "b": -3.0,
+            "weak_mass": 11.243381118774414,
+            "strong_mass": 12.234211921691895,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7609280430396772
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7145258910558171,
+      "ece": 0.09277694734225518,
+      "brier": 0.4017849564552307,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.07389228586685553,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.3214525891055817,
+        "incoherence_after": 0.010087424344317418,
+        "acc_after": 0.7985877605917956,
+        "map_fallbacks": 30
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.25,
+          "b": -3.0,
+          "weak_mass": 10.444415283203126,
+          "strong_mass": 12.364019775390625,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -1.0,
+            "weak_mass": 10.407790756225586,
+            "strong_mass": 12.282465744018555,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.25,
+            "b": -3.0,
+            "weak_mass": 10.444415283203126,
+            "strong_mass": 12.364019775390625,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7145258910558171
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours1cal",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7145258910558171,
+      "ece": 0.057219037890093555,
+      "brier": 0.39361003041267395,
+      "risk": {
+        "theta": 0.9057261943817139,
+        "automation": 0.28698722259583054,
+        "realized_risk": 0.024604569420035194,
+        "bound": 0.04968149784758937,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.3214525891055817,
+        "incoherence_after": 0.010087424344317418,
+        "acc_after": 0.7987558843308675,
+        "map_fallbacks": 30
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.25,
+          "b": -3.0,
+          "weak_mass": 10.444415283203126,
+          "strong_mass": 12.364019775390625,
+          "on_grid_edge": false,
+          "T_post": 0.9
+        },
+        "by_k": {
+          "18": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -1.0,
+            "weak_mass": 10.407790756225586,
+            "strong_mass": 12.282465744018555,
+            "on_grid_edge": true,
+            "T_post": 0.7
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.25,
+            "b": -3.0,
+            "weak_mass": 10.444415283203126,
+            "strong_mass": 12.364019775390625,
+            "on_grid_edge": false,
+            "T_post": 0.9
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7145258910558171
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7627774041694687,
+      "ece": 0.15149065279843388,
+      "brier": 0.37296807765960693,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.05813048602331033,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.2518493611297915,
+        "incoherence_after": 0.0057162071284465365,
+        "acc_after": 0.8122057834566241,
+        "map_fallbacks": 17
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.5,
+          "b": -3.0,
+          "weak_mass": 11.250958061218261,
+          "strong_mass": 12.225328826904297,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "18": {
+            "T": 1.1,
+            "a": 2.5,
+            "b": -6.0,
+            "weak_mass": 11.218912887573243,
+            "strong_mass": 12.275188446044922,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.5,
+            "b": -3.0,
+            "weak_mass": 11.250958061218261,
+            "strong_mass": 12.225328826904297,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7627774041694687
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "massive",
+      "config": "ours3cal",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5948,
+      "acc": 0.7627774041694687,
+      "ece": 0.0382162078829243,
+      "brier": 0.33799663186073303,
+      "risk": {
+        "theta": 0.9361287951469421,
+        "automation": 0.29707464694014796,
+        "realized_risk": 0.024900962082625933,
+        "bound": 0.04968149784758937,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.2518493611297915,
+        "incoherence_after": 0.0057162071284465365,
+        "acc_after": 0.8167451244115669,
+        "map_fallbacks": 17
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.5,
+          "b": -3.0,
+          "weak_mass": 11.250958061218261,
+          "strong_mass": 12.225328826904297,
+          "on_grid_edge": false,
+          "T_post": 0.8
+        },
+        "by_k": {
+          "18": {
+            "T": 1.1,
+            "a": 2.5,
+            "b": -6.0,
+            "weak_mass": 11.218912887573243,
+            "strong_mass": 12.275188446044922,
+            "on_grid_edge": true,
+            "T_post": 0.5
+          },
+          "60": {
+            "T": 1.0,
+            "a": 0.5,
+            "b": -3.0,
+            "weak_mass": 11.250958061218261,
+            "strong_mass": 12.225328826904297,
+            "on_grid_edge": false,
+            "T_post": 0.8
+          }
+        }
+      },
+      "n_excluded": 16,
+      "by_family": {
+        "intent": {
+          "n": 5948,
+          "acc": 0.7627774041694687
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B1@1000": {
+      "acc": [
+        0.6995628782784129,
+        0.0
+      ],
+      "ece": [
+        0.04323481639182852,
+        0.000846547073714492
+      ],
+      "brier": [
+        0.42594407002131146,
+        0.0012922504732430183
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.7462452364940596,
+        0.011024041072348643
+      ],
+      "ece": [
+        0.13258349830257574,
+        0.014307960195068992
+      ],
+      "brier": [
+        0.3783506651719411,
+        0.00270017378088064
+      ]
+    },
+    "ours1@1000": {
+      "acc": [
+        0.7134050661286707,
+        0.0009641700590722619
+      ],
+      "ece": [
+        0.08597849372492943,
+        0.005285603084100835
+      ],
+      "brier": [
+        0.40048635999361676,
+        0.000993807536692322
+      ]
+    },
+    "ours1cal@1000": {
+      "acc": [
+        0.7134050661286707,
+        0.0009641700590722619
+      ],
+      "ece": [
+        0.06116302008662316,
+        0.002809919943920809
+      ],
+      "brier": [
+        0.39695124824841815,
+        0.0024280947720191834
+      ]
+    },
+    "ours3@1000": {
+      "acc": [
+        0.7510087424344317,
+        0.008720853469592883
+      ],
+      "ece": [
+        0.13705967894925034,
+        0.010459366194758816
+      ],
+      "brier": [
+        0.37523167332013446,
+        0.0022458183245268127
+      ]
+    },
+    "ours3cal@1000": {
+      "acc": [
+        0.7510087424344317,
+        0.008720853469592883
+      ],
+      "ece": [
+        0.04103058944812232,
+        0.0022600661889486794
+      ],
+      "brier": [
+        0.34753790497779846,
+        0.007222801465093544
+      ]
+    }
+  }
+}

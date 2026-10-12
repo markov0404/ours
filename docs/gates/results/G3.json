@@ -1,0 +1,29 @@
+{
+  "gate": "G3",
+  "zone": "A",
+  "detail": {
+    "massive": true,
+    "civil": true
+  },
+  "inputs": {
+    "massive": {
+      "acc": 0.7114996637525218,
+      "coherence": {
+        "incoherence_before": 0.32548755884330866,
+        "incoherence_after": 0.010087424344317418,
+        "acc_after": 0.793375924680565,
+        "map_fallbacks": 30
+      }
+    },
+    "civil": {
+      "acc": 0.9039047619047619,
+      "coherence": {
+        "incoherence_before": 0.01,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9043809523809524,
+        "map_fallbacks": 0
+      }
+    }
+  },
+  "config": "B3"
+}

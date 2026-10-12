@@ -1,0 +1,55 @@
+{
+  "gate": "G5",
+  "zone": "C",
+  "detail": {
+    "A/civil:threat": true,
+    "B/civil:threat": false,
+    "C/civil:threat": true,
+    "A/civil:toxicity": true,
+    "B/civil:toxicity": true,
+    "C/civil:toxicity": false
+  },
+  "inputs": {
+    "A/civil:threat": {
+      "bayes": 358.0,
+      "argmax": 530.0,
+      "threshold": 530.0,
+      "n": 3000
+    },
+    "B/civil:threat": {
+      "bayes": 53.0,
+      "argmax": 53.0,
+      "threshold": 53.0,
+      "n": 3000
+    },
+    "C/civil:threat": {
+      "bayes": 209.0,
+      "argmax": 265.0,
+      "threshold": 265.0,
+      "n": 3000
+    },
+    "A/civil:toxicity": {
+      "bayes": 1499.0,
+      "argmax": 1689.0,
+      "threshold": 1689.0,
+      "n": 3000
+    },
+    "B/civil:toxicity": {
+      "bayes": 1491.0,
+      "argmax": 7980.0,
+      "threshold": 7980.0,
+      "n": 3000
+    },
+    "C/civil:toxicity": {
+      "bayes": 1499.0,
+      "argmax": 1239.0,
+      "threshold": 1239.0,
+      "n": 3000
+    }
+  },
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "skipped": [
+    "plumb:routing: opciones no yes/no (matrices A/B/C omitidas)",
+    "plumb:judge: opciones no yes/no (matrices A/B/C omitidas)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "what": "civil test (3000 comentarios por pregunta), seed 0, n=1000 precedentes; detección de positivos (gold = yes) y falsas alarmas, JevK5 solo (B0) vs con memoria (Ours-1). Fuente: diagnóstico del controlador 2026-10-12 00:xx sobre results/ladder.",
+  "questions": {
+    "threat":          {"positives": 53,   "B0": {"detected": 17,  "false_pos": 64},   "ours1": {"detected": 0,    "false_pos": 0}},
+    "identity_attack": {"positives": 119,  "B0": {"detected": 105, "false_pos": 1233}, "ours1": {"detected": 1,    "false_pos": 5}},
+    "severe_toxicity": {"positives": 21,   "B0": {"detected": 13,  "false_pos": 1024}, "ours1": {"detected": 0,    "false_pos": 3}},
+    "obscene":         {"positives": 117,  "B0": {"detected": 45,  "false_pos": 90},   "ours1": {"detected": 0,    "false_pos": 0}},
+    "sexual_explicit": {"positives": 36,   "B0": {"detected": 10,  "false_pos": 31},   "ours1": {"detected": 0,    "false_pos": 0}},
+    "insult":          {"positives": 1084, "B0": {"detected": 868, "false_pos": 564},  "ours1": {"detected": 797,  "false_pos": 509}},
+    "toxicity":        {"positives": 1500, "B0": {"detected": 1038,"false_pos": 347},  "ours1": {"detected": 1410, "false_pos": 789}}
+  },
+  "massive_per_question": {"intent": {"B0": 0.748, "ours1": 0.751}, "scenario": {"B0": 0.651, "ours1": 0.674},
+                           "joint_decode": {"B0": {"before": 0.700, "after": 0.783}, "ours1": {"before": 0.713, "after": 0.794}, "incoherence": {"before": 0.324, "after": 0.009}}}
+}

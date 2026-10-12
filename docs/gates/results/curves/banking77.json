@@ -1,0 +1,3016 @@
+{
+  "dataset": "banking77",
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "rows": [
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.0320065915245461,
+      "brier": 0.42922675609588623,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7015604681404422,
+      "ece": 0.02880901109393302,
+      "brier": 0.4291765093803406,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.34050272308997265,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.502581596374512,
+          "strong_mass": 12.157008743286132,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.502581596374512,
+            "strong_mass": 12.157008743286132,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7015604681404422
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7005851755526658,
+      "ece": 0.02978493530492167,
+      "brier": 0.42917823791503906,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.34050272308997265,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.278764533996583,
+          "strong_mass": 12.01085376739502,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.278764533996583,
+            "strong_mass": 12.01085376739502,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7005851755526658
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7005851755526658,
+      "ece": 0.02978497961117013,
+      "brier": 0.42917826771736145,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.34050272308997265,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.275075340270996,
+          "strong_mass": 12.008038330078126,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.275075340270996,
+            "strong_mass": 12.008038330078126,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7005851755526658
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.03011007908784985,
+      "brier": 0.4291776716709137,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.34050272308997265,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 11.235817337036133,
+          "strong_mass": 12.222960281372071,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 11.235817337036133,
+            "strong_mass": 12.222960281372071,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.04322695393013552,
+      "brier": 0.4296402037143707,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.6996098829648895,
+      "ece": 0.0585992370546833,
+      "brier": 0.4312361180782318,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.4006022017003378,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 1.0,
+          "b": -6.0,
+          "weak_mass": 11.450132751464844,
+          "strong_mass": 12.26099853515625,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.450132751464844,
+            "strong_mass": 12.26099853515625,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6996098829648895
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.6996098829648895,
+      "ece": 0.05785710860639615,
+      "brier": 0.4313904047012329,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.4006022017003378,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -3.5,
+          "weak_mass": 11.226733779907226,
+          "strong_mass": 12.161071395874023,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -3.5,
+            "weak_mass": 11.226733779907226,
+            "strong_mass": 12.161071395874023,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6996098829648895
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.6996098829648895,
+      "ece": 0.05976439811415261,
+      "brier": 0.4316456913948059,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.4006022017003378,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.25,
+          "b": -4.0,
+          "weak_mass": 11.194711303710937,
+          "strong_mass": 12.163150024414062,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.25,
+            "b": -4.0,
+            "weak_mass": 11.194711303710937,
+            "strong_mass": 12.163150024414062,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6996098829648895
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.6996098829648895,
+      "ece": 0.06908410204567202,
+      "brier": 0.4327367842197418,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.4006022017003378,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 1.0,
+          "b": -5.5,
+          "weak_mass": 11.305158996582032,
+          "strong_mass": 12.148281288146972,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 1.0,
+            "b": -5.5,
+            "weak_mass": 11.305158996582032,
+            "strong_mass": 12.148281288146972,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6996098829648895
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.0320065915245461,
+      "brier": 0.42922675609588623,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.03021278398496588,
+      "brier": 0.42904794216156006,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.3591112310023263,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.25,
+          "b": -5.0,
+          "weak_mass": 11.465629577636719,
+          "strong_mass": 12.19219512939453,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.25,
+            "b": -5.0,
+            "weak_mass": 11.465629577636719,
+            "strong_mass": 12.19219512939453,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.027801769658419337,
+      "brier": 0.42908650636672974,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.3591112310023263,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.5,
+          "b": -6.0,
+          "weak_mass": 11.348589897155762,
+          "strong_mass": 12.148162841796875,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.5,
+            "b": -6.0,
+            "weak_mass": 11.348589897155762,
+            "strong_mass": 12.148162841796875,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.027801979788529392,
+      "brier": 0.42908626794815063,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.3591112310023263,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.5,
+          "b": -6.0,
+          "weak_mass": 11.351631546020508,
+          "strong_mass": 12.146776008605958,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.5,
+            "b": -6.0,
+            "weak_mass": 11.351631546020508,
+            "strong_mass": 12.146776008605958,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 50,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.028489975539679167,
+      "brier": 0.42901718616485596,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.3591112310023263,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.75,
+          "b": -6.0,
+          "weak_mass": 11.271945190429687,
+          "strong_mass": 12.149404907226563,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.75,
+            "b": -6.0,
+            "weak_mass": 11.271945190429687,
+            "strong_mass": 12.149404907226563,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 50
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.04322695393013552,
+      "brier": 0.4296402037143707,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7025357607282184,
+      "ece": 0.09041977203868923,
+      "brier": 0.4345608651638031,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.1368377518721505,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 1.5,
+          "b": -6.0,
+          "weak_mass": 11.147888565063477,
+          "strong_mass": 12.291810417175293,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 1.5,
+            "b": -6.0,
+            "weak_mass": 11.147888565063477,
+            "strong_mass": 12.291810417175293,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7025357607282184
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7012353706111834,
+      "ece": 0.08119943239017641,
+      "brier": 0.43395179510116577,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.11105692721317716,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 1.0,
+          "b": -5.0,
+          "weak_mass": 11.07840690612793,
+          "strong_mass": 12.194682312011718,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 1.0,
+            "b": -5.0,
+            "weak_mass": 11.07840690612793,
+            "strong_mass": 12.194682312011718,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7012353706111834
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7012353706111834,
+      "ece": 0.0816205202544929,
+      "brier": 0.4339359998703003,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.11105692721317716,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 1.0,
+          "b": -5.0,
+          "weak_mass": 11.07269744873047,
+          "strong_mass": 12.208083534240723,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 1.0,
+            "b": -5.0,
+            "weak_mass": 11.07269744873047,
+            "strong_mass": 12.208083534240723,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7012353706111834
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7015604681404422,
+      "ece": 0.09053833261665117,
+      "brier": 0.4352585971355438,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.12719757535163556,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 1.5,
+          "b": -6.0,
+          "weak_mass": 11.129604911804199,
+          "strong_mass": 12.156626129150391,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 1.5,
+            "b": -6.0,
+            "weak_mass": 11.129604911804199,
+            "strong_mass": 12.156626129150391,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7015604681404422
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.0320065915245461,
+      "brier": 0.42922675609588623,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7012353706111834,
+      "ece": 0.056804977890263925,
+      "brier": 0.42882239818573,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.15086714273260876,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 1.5,
+          "b": -6.0,
+          "weak_mass": 11.223502349853515,
+          "strong_mass": 12.226959609985352,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 1.5,
+            "b": -6.0,
+            "weak_mass": 11.223502349853515,
+            "strong_mass": 12.226959609985352,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7012353706111834
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.029950153210983932,
+      "brier": 0.4284920394420624,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.15086714273260876,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 1.0,
+          "b": -6.0,
+          "weak_mass": 11.014335250854492,
+          "strong_mass": 12.187492179870604,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.014335250854492,
+            "strong_mass": 12.187492179870604,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.02969230724782023,
+      "brier": 0.428485244512558,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.15086714273260876,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 1.0,
+          "b": -6.0,
+          "weak_mass": 11.023769950866699,
+          "strong_mass": 12.184709739685058,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 1.0,
+            "b": -6.0,
+            "weak_mass": 11.023769950866699,
+            "strong_mass": 12.184709739685058,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.05134769267025942,
+      "brier": 0.42918309569358826,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.15086714273260876,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -2.5,
+          "weak_mass": 10.907627487182618,
+          "strong_mass": 12.133151245117187,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -2.5,
+            "weak_mass": 10.907627487182618,
+            "strong_mass": 12.133151245117187,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.0320065915245461,
+      "brier": 0.42922675609588623,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7012353706111834,
+      "ece": 0.04785148658207161,
+      "brier": 0.428693950176239,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.1559012766873628,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 1.0,
+          "b": -5.0,
+          "weak_mass": 11.404285430908203,
+          "strong_mass": 12.281954574584962,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 1.0,
+            "b": -5.0,
+            "weak_mass": 11.404285430908203,
+            "strong_mass": 12.281954574584962,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7012353706111834
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7002600780234071,
+      "ece": 0.0450798895461933,
+      "brier": 0.42857626080513,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.1368377518721505,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 1.25,
+          "b": -6.0,
+          "weak_mass": 11.039963531494141,
+          "strong_mass": 12.179047966003418,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 1.25,
+            "b": -6.0,
+            "weak_mass": 11.039963531494141,
+            "strong_mass": 12.179047966003418,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7002600780234071
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.048108157874975147,
+      "brier": 0.4288141131401062,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.1561081527047199,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.5,
+          "b": -4.0,
+          "weak_mass": 11.045246887207032,
+          "strong_mass": 12.174697494506836,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.5,
+            "b": -4.0,
+            "weak_mass": 11.045246887207032,
+            "strong_mass": 12.174697494506836,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 200,
+      "n_eval": 3076,
+      "acc": 0.7015604681404422,
+      "ece": 0.05629628041446675,
+      "brier": 0.4301857352256775,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.13906412612261293,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.5,
+          "b": -3.5,
+          "weak_mass": 11.161201286315919,
+          "strong_mass": 12.174065399169923,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.5,
+            "b": -3.5,
+            "weak_mass": 11.161201286315919,
+            "strong_mass": 12.174065399169923,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7015604681404422
+        }
+      },
+      "by_tier": {},
+      "n_requested": 200
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.04322695393013552,
+      "brier": 0.4296402037143707,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7269180754226268,
+      "ece": 0.1895619425244426,
+      "brier": 0.42514508962631226,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.05815507911697247,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.75,
+          "b": -2.5,
+          "weak_mass": 10.991131401062011,
+          "strong_mass": 12.46675148010254,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.75,
+            "b": -2.5,
+            "weak_mass": 10.991131401062011,
+            "strong_mass": 12.46675148010254,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7269180754226268
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7041612483745123,
+      "ece": 0.12086501325176657,
+      "brier": 0.43341583013534546,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.07701235601687272,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.75,
+          "b": -3.5,
+          "weak_mass": 10.877509880065919,
+          "strong_mass": 12.198804473876953,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.75,
+            "b": -3.5,
+            "weak_mass": 10.877509880065919,
+            "strong_mass": 12.198804473876953,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7041612483745123
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7054616384915474,
+      "ece": 0.13226831110947618,
+      "brier": 0.4349406361579895,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.05815507911697247,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -1.5,
+          "weak_mass": 10.885590171813964,
+          "strong_mass": 12.193330001831054,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 10.885590171813964,
+            "strong_mass": 12.193330001831054,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7054616384915474
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7083875162548765,
+      "ece": 0.13662297822903205,
+      "brier": 0.43267160654067993,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.05815507911697247,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.25,
+          "b": -2.0,
+          "weak_mass": 10.969776916503907,
+          "strong_mass": 12.211612510681153,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.25,
+            "b": -2.0,
+            "weak_mass": 10.969776916503907,
+            "strong_mass": 12.211612510681153,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7083875162548765
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.04322695393013552,
+      "brier": 0.4296402037143707,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7291937581274383,
+      "ece": 0.20609413205085247,
+      "brier": 0.42980313301086426,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.07701235601687272,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -0.5,
+          "weak_mass": 11.072914123535156,
+          "strong_mass": 12.441488265991211,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -0.5,
+            "weak_mass": 11.072914123535156,
+            "strong_mass": 12.441488265991211,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7291937581274383
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7054616384915474,
+      "ece": 0.13070262709610714,
+      "brier": 0.4358631670475006,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.08753796932196004,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -1.5,
+          "weak_mass": 10.87498664855957,
+          "strong_mass": 12.246927261352539,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 10.87498664855957,
+            "strong_mass": 12.246927261352539,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7054616384915474
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7054616384915474,
+      "ece": 0.12977796089587196,
+      "brier": 0.4350871741771698,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.08753796932196004,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.0,
+          "b": -1.5,
+          "weak_mass": 10.870991516113282,
+          "strong_mass": 12.234253120422363,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.0,
+            "b": -1.5,
+            "weak_mass": 10.870991516113282,
+            "strong_mass": 12.234253120422363,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7054616384915474
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7077373211963589,
+      "ece": 0.14593719587369458,
+      "brier": 0.43468400835990906,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.07922192884559738,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.2000000000000002,
+          "a": 0.5,
+          "b": -2.5,
+          "weak_mass": 10.963875198364258,
+          "strong_mass": 12.203599739074708,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.2000000000000002,
+            "a": 0.5,
+            "b": -2.5,
+            "weak_mass": 10.963875198364258,
+            "strong_mass": 12.203599739074708,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7077373211963589
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 0,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.06272728638469167,
+      "brier": 0.4340552091598511,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.6999349804941483,
+      "ece": 0.0320065915245461,
+      "brier": 0.42922675609588623,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.6999349804941483
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7187906371911573,
+      "ece": 0.12709873597657187,
+      "brier": 0.41239526867866516,
+      "risk": {
+        "theta": 0.7399920225143433,
+        "automation": 0.2542262678803641,
+        "realized_risk": 0.03196930946291565,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.25,
+          "b": -1.5,
+          "weak_mass": 11.190849494934081,
+          "strong_mass": 12.393614959716796,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.25,
+            "b": -1.5,
+            "weak_mass": 11.190849494934081,
+            "strong_mass": 12.393614959716796,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7187906371911573
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "B3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7035110533159948,
+      "ece": 0.07788030615243556,
+      "brier": 0.42493128776550293,
+      "risk": {
+        "theta": 0.7934602499008179,
+        "automation": 0.2740572171651495,
+        "realized_risk": 0.028469750889679735,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.5,
+          "b": -3.0,
+          "weak_mass": 10.906046676635743,
+          "strong_mass": 12.199668884277344,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.5,
+            "b": -3.0,
+            "weak_mass": 10.906046676635743,
+            "strong_mass": 12.199668884277344,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7035110533159948
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7041612483745123,
+      "ece": 0.08597589572903704,
+      "brier": 0.4250401258468628,
+      "risk": {
+        "theta": 0.7827861309051514,
+        "automation": 0.2779583875162549,
+        "realized_risk": 0.03040935672514622,
+        "bound": 0.046711411129247454,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.75,
+          "b": -3.5,
+          "weak_mass": 10.920401000976563,
+          "strong_mass": 12.191606330871583,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.75,
+            "b": -3.5,
+            "weak_mass": 10.920401000976563,
+            "strong_mass": 12.191606330871583,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7041612483745123
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "banking77",
+      "config": "ours2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 3076,
+      "acc": 0.7083875162548765,
+      "ece": 0.10442360713884175,
+      "brier": 0.42404723167419434,
+      "risk": {
+        "theta": 0.7773222923278809,
+        "automation": 0.20188556566970092,
+        "realized_risk": 0.017713365539452464,
+        "bound": 0.04960672549365339,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.25,
+          "b": -2.0,
+          "weak_mass": 10.99666805267334,
+          "strong_mass": 12.204619979858398,
+          "on_grid_edge": false
+        },
+        "by_k": {
+          "77": {
+            "T": 1.1,
+            "a": 0.25,
+            "b": -2.0,
+            "weak_mass": 10.99666805267334,
+            "strong_mass": 12.204619979858398,
+            "on_grid_edge": false
+          }
+        }
+      },
+      "n_excluded": 2,
+      "by_family": {
+        "intent": {
+          "n": 3076,
+          "acc": 0.7083875162548765
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B0@0": {
+      "acc": [
+        0.6999349804941483,
+        0.0
+      ],
+      "ece": [
+        0.06272728638469167,
+        0.0
+      ],
+      "brier": [
+        0.4340552091598511,
+        0.0
+      ]
+    },
+    "B0@50": {
+      "acc": [
+        0.6999349804941483,
+        0.0
+      ],
+      "ece": [
+        0.06272728638469167,
+        0.0
+      ],
+      "brier": [
+        0.4340552091598511,
+        0.0
+      ]
+    },
+    "B0@200": {
+      "acc": [
+        0.6999349804941483,
+        0.0
+      ],
+      "ece": [
+        0.06272728638469167,
+        0.0
+      ],
+      "brier": [
+        0.4340552091598511,
+        0.0
+      ]
+    },
+    "B0@1000": {
+      "acc": [
+        0.6999349804941483,
+        0.0
+      ],
+      "ece": [
+        0.06272728638469167,
+        0.0
+      ],
+      "brier": [
+        0.4340552091598511,
+        0.0
+      ]
+    },
+    "B1@50": {
+      "acc": [
+        0.6999349804941483,
+        0.0
+      ],
+      "ece": [
+        0.03574671232640924,
+        0.005289329562908588
+      ],
+      "brier": [
+        0.4293645719687144,
+        0.00019490107646387764
+      ]
+    },
+    "B1@200": {
+      "acc": [
+        0.6999349804941483,
+        0.0
+      ],
+      "ece": [
+        0.03574671232640924,
+        0.005289329562908588
+      ],
+      "brier": [
+        0.4293645719687144,
+        0.00019490107646387764
+      ]
+    },
+    "B1@1000": {
+      "acc": [
+        0.6999349804941483,
+        0.0
+      ],
+      "ece": [
+        0.039486833128272385,
+        0.005289329562908588
+      ],
+      "brier": [
+        0.42950238784154254,
+        0.00019490107646387764
+      ]
+    },
+    "B2@50": {
+      "acc": [
+        0.7004768097095795,
+        0.0008109357145153813
+      ],
+      "ece": [
+        0.03920701071119407,
+        0.01372434519385747
+      ],
+      "brier": [
+        0.4298201898733775,
+        0.0010025872841180272
+      ]
+    },
+    "B2@200": {
+      "acc": [
+        0.7016688339835285,
+        0.0006130097799623194
+      ],
+      "ece": [
+        0.06502541217034159,
+        0.018324780789845348
+      ],
+      "brier": [
+        0.4306924045085907,
+        0.002735917348103475
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.7249674902470741,
+        0.004465409141316988
+      ],
+      "ece": [
+        0.17425160351728897,
+        0.03401835789313955
+      ],
+      "brier": [
+        0.4224478304386139,
+        0.007358208137686774
+      ]
+    },
+    "B3@50": {
+      "acc": [
+        0.7001517121803208,
+        0.0004054678572576758
+      ],
+      "ece": [
+        0.03848127118991239,
+        0.013724686837662902
+      ],
+      "brier": [
+        0.42988504966100055,
+        0.001065105320959228
+      ]
+    },
+    "B3@200": {
+      "acc": [
+        0.7004768097095795,
+        0.0005525595485037565
+      ],
+      "ece": [
+        0.052076491715784545,
+        0.02149940286824031
+      ],
+      "brier": [
+        0.43034003178278607,
+        0.002554133774947873
+      ]
+    },
+    "B3@1000": {
+      "acc": [
+        0.704377980060685,
+        0.0008109357145153417
+      ],
+      "ece": [
+        0.10981598216676976,
+        0.02293629167072685
+      ],
+      "brier": [
+        0.43140342831611633,
+        0.004684286994521867
+      ]
+    },
+    "ours1@50": {
+      "acc": [
+        0.7001517121803208,
+        0.0004054678572576758
+      ],
+      "ece": [
+        0.03911711917128404,
+        0.014622258555198555
+      ],
+      "brier": [
+        0.42997007568677265,
+        0.0011854343761225313
+      ]
+    },
+    "ours1@200": {
+      "acc": [
+        0.7004768097095796,
+        0.0005525595485037565
+      ],
+      "ece": [
+        0.05314032845909609,
+        0.0214961528667707
+      ],
+      "brier": [
+        0.43041178584098816,
+        0.002495609750053977
+      ]
+    },
+    "ours1@1000": {
+      "acc": [
+        0.7050281751192023,
+        0.0006130097799623194
+      ],
+      "ece": [
+        0.11600738924479505,
+        0.021259796379345716
+      ],
+      "brier": [
+        0.431689312060674,
+        0.00470206524321809
+      ]
+    },
+    "ours2@50": {
+      "acc": [
+        0.7000433463372345,
+        0.0003065048899811859
+      ],
+      "ece": [
+        0.04256138555773368,
+        0.018766051818845043
+      ],
+      "brier": [
+        0.43031054735183716,
+        0.0017168591291072824
+      ]
+    },
+    "ours2@200": {
+      "acc": [
+        0.7011270047680971,
+        0.0006130097799623194
+      ],
+      "ece": [
+        0.06606076856712577,
+        0.017425756540525354
+      ],
+      "brier": [
+        0.43154247601826984,
+        0.002659384468445554
+      ]
+    },
+    "ours2@1000": {
+      "acc": [
+        0.7081707845687039,
+        0.0003065048899811859
+      ],
+      "ece": [
+        0.12899459374718944,
+        0.01778555031036408
+      ],
+      "brier": [
+        0.4304676155249278,
+        0.004613634638299701
+      ]
+    }
+  }
+}

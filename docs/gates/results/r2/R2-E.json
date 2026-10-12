@@ -1,0 +1,71 @@
+{
+  "gate": "R2-E",
+  "zone": "C",
+  "detail": {
+    "alpha": 0.1,
+    "config": "ours1",
+    "per_seed": [
+      {
+        "seed": 0,
+        "theta": 0.7974319458007812,
+        "automation": 0.5227272727272727,
+        "realized_risk": 0.10191304347826091,
+        "bound": 0.09832145312894992
+      },
+      {
+        "seed": 1,
+        "theta": 0.8302433490753174,
+        "automation": 0.4330909090909091,
+        "realized_risk": 0.08522250209907645,
+        "bound": 0.09842366837099242
+      },
+      {
+        "seed": 2,
+        "theta": 0.7920957803726196,
+        "automation": 0.5243636363636364,
+        "realized_risk": 0.10228848821081826,
+        "bound": 0.09633731393887968
+      }
+    ]
+  },
+  "inputs": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "theta": 0.7974319458007812,
+        "automation": 0.5227272727272727,
+        "realized_risk": 0.10191304347826091,
+        "bound": 0.09832145312894992,
+        "alpha": 0.1,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      {
+        "seed": 1,
+        "theta": 0.8302433490753174,
+        "automation": 0.4330909090909091,
+        "realized_risk": 0.08522250209907645,
+        "bound": 0.09842366837099242,
+        "alpha": 0.1,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      {
+        "seed": 2,
+        "theta": 0.7920957803726196,
+        "automation": 0.5243636363636364,
+        "realized_risk": 0.10228848821081826,
+        "bound": 0.09633731393887968,
+        "alpha": 0.1,
+        "delta": 0.05,
+        "insufficient": false
+      }
+    ]
+  },
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "n": 1000,
+  "ledger": {
+    "text": "R2-E corrido: zona C [s0: aut 0.523 riesgo 0.1019 theta 0.797; s1: aut 0.433 riesgo 0.0852 theta 0.830; s2: aut 0.524 riesgo 0.1023 theta 0.792]",
+    "sustiene": false
+  }
+}

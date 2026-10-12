@@ -1,0 +1,947 @@
+{
+  "dataset": "plumb",
+  "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+  "rows": [
+    {
+      "dataset": "plumb",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 1133,
+      "acc": 0.4227714033539276,
+      "ece": 0.2907573116214951,
+      "brier": 0.8011170625686646,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.46774193548387094
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.4
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.7352941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.3220338983050847
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.45454545454545453
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.3978494623655914
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.37272727272727274
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.5
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.3829787234042553
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.34615384615384615
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.4935064935064935
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.39344262295081966
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.34003195156814925,
+      "n_requested": 0
+    },
+    {
+      "dataset": "plumb",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 1131,
+      "acc": 0.4244031830238727,
+      "ece": 0.2895803790140953,
+      "brier": 0.8097504377365112,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.3194444444444444
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.38095238095238093
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.6811594202898551
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.43209876543209874
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.4484848484848485
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.3793103448275862
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.38095238095238093
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.525
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.34408602150537637
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.423728813559322
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.49122807017543857
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.3469387755102041
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.21273808324095544,
+      "n_requested": 0
+    },
+    {
+      "dataset": "plumb",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 1141,
+      "acc": 0.4057843996494303,
+      "ece": 0.318799882056314,
+      "brier": 0.8339887261390686,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.3484848484848485
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.4069767441860465
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.6153846153846154
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.3333333333333333
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.4810810810810811
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.38461538461538464
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.2708333333333333
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.4935064935064935
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.3118279569892473
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.4140625
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.43859649122807015
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.3442622950819672
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.2704895861509331,
+      "n_requested": 0
+    },
+    {
+      "dataset": "plumb",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 1133,
+      "acc": 0.4227714033539276,
+      "ece": 0.2907573116214951,
+      "brier": 0.8011170625686646,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.46774193548387094
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.4
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.7352941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.3220338983050847
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.45454545454545453
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.3978494623655914
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.37272727272727274
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.5
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.3829787234042553
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.34615384615384615
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.4935064935064935
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.39344262295081966
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.34003195156814925,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1133,
+      "acc": 0.4201235657546337,
+      "ece": 0.05775040119807487,
+      "brier": 0.6464946866035461,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.6083898340137881,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 3.0,
+          "a": 0.0,
+          "b": 1.0,
+          "weak_mass": 10.474808692932129,
+          "strong_mass": 11.934246063232422,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "2": {
+            "T": 3.0,
+            "a": 0.0,
+            "b": 1.0,
+            "weak_mass": 10.474808692932129,
+            "strong_mass": 11.934246063232422,
+            "on_grid_edge": true
+          },
+          "3": {
+            "T": 3.0,
+            "a": 1.75,
+            "b": -5.0,
+            "weak_mass": 11.500396728515625,
+            "strong_mass": 12.308155059814453,
+            "on_grid_edge": true
+          },
+          "4": {
+            "T": 3.0,
+            "a": 1.25,
+            "b": -4.5,
+            "weak_mass": 11.474148750305176,
+            "strong_mass": 12.23255500793457,
+            "on_grid_edge": true
+          },
+          "5": {
+            "T": 3.0,
+            "a": 0.0,
+            "b": -0.5,
+            "weak_mass": 11.386758804321289,
+            "strong_mass": 12.249811172485352,
+            "on_grid_edge": true
+          },
+          "6": {
+            "T": 3.0,
+            "a": 1.75,
+            "b": -6.0,
+            "weak_mass": 11.18399257659912,
+            "strong_mass": 12.152856826782227,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 62,
+          "acc": 0.45161290322580644
+        },
+        "ambiguous": {
+          "n": 70,
+          "acc": 0.44285714285714284
+        },
+        "extraction": {
+          "n": 68,
+          "acc": 0.7352941176470589
+        },
+        "judge": {
+          "n": 118,
+          "acc": 0.2966101694915254
+        },
+        "long_policy": {
+          "n": 176,
+          "acc": 0.4943181818181818
+        },
+        "multi_hop": {
+          "n": 93,
+          "acc": 0.3870967741935484
+        },
+        "probability": {
+          "n": 110,
+          "acc": 0.3090909090909091
+        },
+        "routing": {
+          "n": 48,
+          "acc": 0.5416666666666666
+        },
+        "rubric": {
+          "n": 94,
+          "acc": 0.3617021276595745
+        },
+        "temporal_numeric": {
+          "n": 156,
+          "acc": 0.34615384615384615
+        },
+        "tradeoff": {
+          "n": 77,
+          "acc": 0.4675324675324675
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.4098360655737705
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.2570117287098418,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 1131,
+      "acc": 0.4244031830238727,
+      "ece": 0.2895803790140953,
+      "brier": 0.8097504377365112,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.3194444444444444
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.38095238095238093
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.6811594202898551
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.43209876543209874
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.4484848484848485
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.3793103448275862
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.38095238095238093
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.525
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.34408602150537637
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.423728813559322
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.49122807017543857
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.3469387755102041
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.21273808324095544,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1131,
+      "acc": 0.4270557029177719,
+      "ece": 0.052882910697044906,
+      "brier": 0.6499608755111694,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.5625438582652273,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 3.0,
+          "a": 0.0,
+          "b": 0.0,
+          "weak_mass": 9.041666030883789,
+          "strong_mass": 11.936071395874023,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "2": {
+            "T": 3.0,
+            "a": 0.0,
+            "b": 0.0,
+            "weak_mass": 9.041666030883789,
+            "strong_mass": 11.936071395874023,
+            "on_grid_edge": true
+          },
+          "3": {
+            "T": 3.0,
+            "a": 2.25,
+            "b": -6.0,
+            "weak_mass": 11.232915115356445,
+            "strong_mass": 12.38495330810547,
+            "on_grid_edge": true
+          },
+          "4": {
+            "T": 3.0,
+            "a": 1.75,
+            "b": -6.0,
+            "weak_mass": 10.862063789367676,
+            "strong_mass": 12.282721519470215,
+            "on_grid_edge": true
+          },
+          "5": {
+            "T": 3.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 10.563654327392578,
+            "strong_mass": 12.393454933166504,
+            "on_grid_edge": true
+          },
+          "6": {
+            "T": 3.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 9.41037826538086,
+            "strong_mass": 12.250688552856445,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 72,
+          "acc": 0.3333333333333333
+        },
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.42857142857142855
+        },
+        "extraction": {
+          "n": 69,
+          "acc": 0.6231884057971014
+        },
+        "judge": {
+          "n": 81,
+          "acc": 0.41975308641975306
+        },
+        "long_policy": {
+          "n": 165,
+          "acc": 0.41818181818181815
+        },
+        "multi_hop": {
+          "n": 116,
+          "acc": 0.3706896551724138
+        },
+        "probability": {
+          "n": 126,
+          "acc": 0.40476190476190477
+        },
+        "routing": {
+          "n": 80,
+          "acc": 0.55
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.3333333333333333
+        },
+        "temporal_numeric": {
+          "n": 118,
+          "acc": 0.4491525423728814
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.49122807017543857
+        },
+        "trap": {
+          "n": 49,
+          "acc": 0.3673469387755102
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.17952400492408693,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 1141,
+      "acc": 0.4057843996494303,
+      "ece": 0.318799882056314,
+      "brier": 0.8339887261390686,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.3484848484848485
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.4069767441860465
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.6153846153846154
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.3333333333333333
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.4810810810810811
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.38461538461538464
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.2708333333333333
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.4935064935064935
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.3118279569892473
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.4140625
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.43859649122807015
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.3442622950819672
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.2704895861509331,
+      "n_requested": 1000
+    },
+    {
+      "dataset": "plumb",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 1141,
+      "acc": 0.4075372480280456,
+      "ece": 0.07923062180971284,
+      "brier": 0.6547600626945496,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.5471348709579802,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 3.0,
+          "a": 1.0,
+          "b": -1.5,
+          "weak_mass": 9.278696060180664,
+          "strong_mass": 11.875782012939453,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "2": {
+            "T": 3.0,
+            "a": 1.0,
+            "b": -1.5,
+            "weak_mass": 9.278696060180664,
+            "strong_mass": 11.875782012939453,
+            "on_grid_edge": true
+          },
+          "3": {
+            "T": 3.0,
+            "a": 1.25,
+            "b": -3.0,
+            "weak_mass": 11.435808563232422,
+            "strong_mass": 12.354779815673828,
+            "on_grid_edge": true
+          },
+          "4": {
+            "T": 3.0,
+            "a": 2.0,
+            "b": -5.5,
+            "weak_mass": 11.523478698730468,
+            "strong_mass": 12.341297149658203,
+            "on_grid_edge": true
+          },
+          "5": {
+            "T": 3.0,
+            "a": 1.75,
+            "b": -6.0,
+            "weak_mass": 11.429758071899414,
+            "strong_mass": 12.458651542663574,
+            "on_grid_edge": true
+          },
+          "6": {
+            "T": 3.0,
+            "a": 2.75,
+            "b": -6.0,
+            "weak_mass": 11.294277954101563,
+            "strong_mass": 12.163886642456054,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 0,
+      "by_family": {
+        "adversarial": {
+          "n": 66,
+          "acc": 0.36363636363636365
+        },
+        "ambiguous": {
+          "n": 86,
+          "acc": 0.4418604651162791
+        },
+        "extraction": {
+          "n": 78,
+          "acc": 0.6153846153846154
+        },
+        "judge": {
+          "n": 123,
+          "acc": 0.3008130081300813
+        },
+        "long_policy": {
+          "n": 185,
+          "acc": 0.5027027027027027
+        },
+        "multi_hop": {
+          "n": 91,
+          "acc": 0.4175824175824176
+        },
+        "probability": {
+          "n": 96,
+          "acc": 0.2604166666666667
+        },
+        "routing": {
+          "n": 77,
+          "acc": 0.4805194805194805
+        },
+        "rubric": {
+          "n": 93,
+          "acc": 0.3225806451612903
+        },
+        "temporal_numeric": {
+          "n": 128,
+          "acc": 0.421875
+        },
+        "tradeoff": {
+          "n": 57,
+          "acc": 0.38596491228070173
+        },
+        "trap": {
+          "n": 61,
+          "acc": 0.3114754098360656
+        }
+      },
+      "by_tier": {},
+      "qwk": 0.19925128685072535,
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B0@0": {
+      "acc": [
+        0.4176529953424102,
+        0.008418762736308198
+      ],
+      "ece": [
+        0.2997125242306348,
+        0.013505349906974594
+      ],
+      "brier": [
+        0.8149520754814148,
+        0.013914724644379692
+      ]
+    },
+    "B0@1000": {
+      "acc": [
+        0.4176529953424102,
+        0.008418762736308198
+      ],
+      "ece": [
+        0.2997125242306348,
+        0.013505349906974594
+      ],
+      "brier": [
+        0.8149520754814148,
+        0.013914724644379692
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.41823883890015034,
+        0.008079053855808371
+      ],
+      "ece": [
+        0.06328797790161088,
+        0.011446951181568242
+      ],
+      "brier": [
+        0.650405208269755,
+        0.003388921576912727
+      ]
+    }
+  }
+}

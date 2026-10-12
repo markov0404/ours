@@ -1,0 +1,77 @@
+# WSL/Windows metadata
+*:Zone.Identifier
+*:mshield
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — NUNCA commitear
+.env
+.env.local
+*.secret
+
+# Data / outputs (ajustar si quieres versionarlos)
+/data/
+outputs/
+/checkpoints/
+runs/
+wandb/
+/logs/
+*.ckpt
+*.pt
+*.pth
+
+# v5 frame encoding caches (regenerable, 268MB)
+data/cache/v5_frame_encodings/
+
+# local SSH keys (never commit)
+key1
+key1.pub
+*.pem
+
+# dec — caches y salidas locales
+cache/
+/results/
+*.parquet
+*.faiss
+.uv/
+
+# harness JevBench clonado (MIT), no se versiona
+vendor/jevbench/
+.venv-jevk5/
+
+
+# pool del cliente y caché de modelos (docker compose)
+/pool/
+/hf-cache/

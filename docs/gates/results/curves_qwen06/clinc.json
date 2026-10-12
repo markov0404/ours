@@ -1,0 +1,482 @@
+{
+  "dataset": "clinc",
+  "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+  "rows": [
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.22363636363636363,
+      "ece": 0.27721453603966667,
+      "brier": 1.0084630250930786,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.6450915555555556,
+        "auroc_conf_mass": 0.6450915555555556
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.22363636363636363
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.22363636363636363,
+      "ece": 0.27721453603966667,
+      "brier": 1.0084630250930786,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.6450915555555556,
+        "auroc_conf_mass": 0.6450915555555556
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.22363636363636363
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.22363636363636363,
+      "ece": 0.27721453603966667,
+      "brier": 1.0084630250930786,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.6450915555555556,
+        "auroc_conf_mass": 0.6450915555555556
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.22363636363636363
+        }
+      },
+      "by_tier": {},
+      "n_requested": 0
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.22363636363636363,
+      "ece": 0.27721453603966667,
+      "brier": 1.0084630250930786,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.6450915555555556,
+        "auroc_conf_mass": 0.6450915555555556
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.22363636363636363
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.4938181818181818,
+      "ece": 0.26948742374913254,
+      "brier": 0.7834922075271606,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.21754421461127255,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 2.2,
+          "a": 3.75,
+          "b": -6.0,
+          "weak_mass": 11.445875358581542,
+          "strong_mass": 12.376621627807618,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 2.2,
+            "a": 3.75,
+            "b": -6.0,
+            "weak_mass": 11.445875358581542,
+            "strong_mass": 12.376621627807618,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.7583175555555555,
+        "auroc_conf_mass": 0.869041111111111
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.4938181818181818
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.22363636363636363,
+      "ece": 0.27721453603966667,
+      "brier": 1.0084630250930786,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.6450915555555556,
+        "auroc_conf_mass": 0.6450915555555556
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.22363636363636363
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.4576363636363636,
+      "ece": 0.23271020794185726,
+      "brier": 0.787568211555481,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.2373627142599417,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 2.3,
+          "a": 3.75,
+          "b": -6.0,
+          "weak_mass": 11.405943679809571,
+          "strong_mass": 12.362098884582519,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 2.3,
+            "a": 3.75,
+            "b": -6.0,
+            "weak_mass": 11.405943679809571,
+            "strong_mass": 12.362098884582519,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.7515463333333333,
+        "auroc_conf_mass": 0.8615311111111111
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.4576363636363636
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B0",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 0,
+      "n_eval": 5500,
+      "acc": 0.22363636363636363,
+      "ece": 0.27721453603966667,
+      "brier": 1.0084630250930786,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 1.0,
+          "b": 0.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": false
+        },
+        "by_k": {}
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.6450915555555556,
+        "auroc_conf_mass": 0.6450915555555556
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.22363636363636363
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "clinc",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "Qwen/Qwen3-0.6B@main:numeric:bf16",
+      "n_labeled": 1000,
+      "n_eval": 5500,
+      "acc": 0.4710909090909091,
+      "ece": 0.24595068599148232,
+      "brier": 0.7823354005813599,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": 0.2373627142599417,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {},
+      "fusion": {
+        "default": {
+          "T": 2.4000000000000004,
+          "a": 3.75,
+          "b": -6.0,
+          "weak_mass": 11.426167678833007,
+          "strong_mass": 12.401114082336425,
+          "on_grid_edge": true
+        },
+        "by_k": {
+          "151": {
+            "T": 2.4000000000000004,
+            "a": 3.75,
+            "b": -6.0,
+            "weak_mass": 11.426167678833007,
+            "strong_mass": 12.401114082336425,
+            "on_grid_edge": true
+          }
+        }
+      },
+      "n_excluded": 3,
+      "oos": {
+        "auroc_conf": 0.735198888888889,
+        "auroc_conf_mass": 0.8557582222222223
+      },
+      "by_family": {
+        "intent": {
+          "n": 5500,
+          "acc": 0.4710909090909091
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B0@0": {
+      "acc": [
+        0.22363636363636363,
+        0.0
+      ],
+      "ece": [
+        0.27721453603966667,
+        0.0
+      ],
+      "brier": [
+        1.0084630250930786,
+        0.0
+      ]
+    },
+    "B0@1000": {
+      "acc": [
+        0.22363636363636363,
+        0.0
+      ],
+      "ece": [
+        0.27721453603966667,
+        0.0
+      ],
+      "brier": [
+        1.0084630250930786,
+        0.0
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.4741818181818182,
+        0.01493198537796712
+      ],
+      "ece": [
+        0.249382772560824,
+        0.015209105042666964
+      ],
+      "brier": [
+        0.7844652732213339,
+        0.002244358899790477
+      ]
+    }
+  }
+}

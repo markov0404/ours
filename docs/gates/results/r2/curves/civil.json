@@ -1,0 +1,1118 @@
+{
+  "dataset": "civil",
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "rows": [
+    {
+      "dataset": "civil",
+      "config": "B1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.8006190476190476,
+      "ece": 0.04272707172802519,
+      "brier": 0.25563284754753113,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.15066666666666667,
+        "incoherence_after": 0.0,
+        "acc_after": 0.81,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.0,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.8006190476190476
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "B2",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.914047619047619,
+      "ece": 0.0852116525996299,
+      "brier": 0.1498999446630478,
+      "risk": {
+        "theta": 0.754299521446228,
+        "automation": 0.6741428571428572,
+        "realized_risk": 0.01695274422547155,
+        "bound": 0.048967373855989524,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.016666666666666666,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9148095238095239,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.75,
+          "b": -6.0,
+          "weak_mass": 11.512106132507324,
+          "strong_mass": 11.959966659545898,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.0,
+            "a": 2.75,
+            "b": -6.0,
+            "weak_mass": 11.512106132507324,
+            "strong_mass": 11.959966659545898,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.914047619047619
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours1",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9134285714285715,
+      "ece": 0.08319419019846688,
+      "brier": 0.14809834957122803,
+      "risk": {
+        "theta": 0.75942063331604,
+        "automation": 0.6735714285714286,
+        "realized_risk": 0.016118769883351036,
+        "bound": 0.046948621262905305,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.018666666666666668,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9134285714285715,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.75,
+          "b": -6.0,
+          "weak_mass": 10.863908386230468,
+          "strong_mass": 12.087460327148438,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.0,
+            "a": 2.75,
+            "b": -6.0,
+            "weak_mass": 10.863908386230468,
+            "strong_mass": 12.087460327148438,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9134285714285715
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours1cal",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9134285714285715,
+      "ece": 0.026287258809521125,
+      "brier": 0.12912936508655548,
+      "risk": {
+        "theta": 0.871674120426178,
+        "automation": 0.6735714285714286,
+        "realized_risk": 0.016118769883351036,
+        "bound": 0.046948621262905305,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.018666666666666668,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9134285714285715,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.75,
+          "b": -6.0,
+          "weak_mass": 10.863908386230468,
+          "strong_mass": 12.087460327148438,
+          "on_grid_edge": true,
+          "T_post": 0.6
+        },
+        "by_k": {
+          "2": {
+            "T": 1.0,
+            "a": 2.75,
+            "b": -6.0,
+            "weak_mass": 10.863908386230468,
+            "strong_mass": 12.087460327148438,
+            "on_grid_edge": true,
+            "T_post": 0.6
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9134285714285715
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours3",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9127619047619048,
+      "ece": 0.07788449369441894,
+      "brier": 0.14703842997550964,
+      "risk": {
+        "theta": 0.7507141828536987,
+        "automation": 0.7065238095238096,
+        "realized_risk": 0.018332547010851297,
+        "bound": 0.04737133809862338,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.011,
+        "incoherence_after": 0.0,
+        "acc_after": 0.913,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.25,
+          "b": -4.5,
+          "weak_mass": 11.497788238525391,
+          "strong_mass": 11.955670356750488,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.0,
+            "a": 2.25,
+            "b": -4.5,
+            "weak_mass": 11.497788238525391,
+            "strong_mass": 11.955670356750488,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9127619047619048
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours3cal",
+      "seed": 0,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9127619047619048,
+      "ece": 0.02064879917246955,
+      "brier": 0.13044746220111847,
+      "risk": {
+        "theta": 0.8626379370689392,
+        "automation": 0.7065238095238096,
+        "realized_risk": 0.018332547010851297,
+        "bound": 0.04737133809862338,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.011,
+        "incoherence_after": 0.0,
+        "acc_after": 0.913,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.0,
+          "a": 2.25,
+          "b": -4.5,
+          "weak_mass": 11.497788238525391,
+          "strong_mass": 11.955670356750488,
+          "on_grid_edge": false,
+          "T_post": 0.6
+        },
+        "by_k": {
+          "2": {
+            "T": 1.0,
+            "a": 2.25,
+            "b": -4.5,
+            "weak_mass": 11.497788238525391,
+            "strong_mass": 11.955670356750488,
+            "on_grid_edge": false,
+            "T_post": 0.6
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9127619047619048
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "B1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.8006190476190476,
+      "ece": 0.04195493608145489,
+      "brier": 0.2535002529621124,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.15066666666666667,
+        "incoherence_after": 0.0,
+        "acc_after": 0.8104761904761905,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.8006190476190476
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "B2",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9057142857142857,
+      "ece": 0.0721810163770403,
+      "brier": 0.15208028256893158,
+      "risk": {
+        "theta": 0.835992693901062,
+        "automation": 0.6085714285714285,
+        "realized_risk": 0.012832550860719882,
+        "bound": 0.046390832010891545,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.055,
+        "incoherence_after": 0.0,
+        "acc_after": 0.908047619047619,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 2.75,
+          "b": -5.5,
+          "weak_mass": 11.49921703338623,
+          "strong_mass": 11.958420944213866,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 2.75,
+            "b": -5.5,
+            "weak_mass": 11.49921703338623,
+            "strong_mass": 11.958420944213866,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9057142857142857
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours1",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9005714285714286,
+      "ece": 0.06129991689750128,
+      "brier": 0.15337897837162018,
+      "risk": {
+        "theta": 0.8566352725028992,
+        "automation": 0.594047619047619,
+        "realized_risk": 0.013066132264529018,
+        "bound": 0.04414969281513048,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.213,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9117619047619048,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 3.0,
+          "b": -6.0,
+          "weak_mass": 10.874863052368164,
+          "strong_mass": 12.105194854736329,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 3.0,
+            "b": -6.0,
+            "weak_mass": 10.874863052368164,
+            "strong_mass": 12.105194854736329,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9005714285714286
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours1cal",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9005714285714286,
+      "ece": 0.026544063905874916,
+      "brier": 0.1430533528327942,
+      "risk": {
+        "theta": 0.9278246164321899,
+        "automation": 0.594047619047619,
+        "realized_risk": 0.013066132264529018,
+        "bound": 0.04414969281513048,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.213,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9117619047619048,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 3.0,
+          "b": -6.0,
+          "weak_mass": 10.874863052368164,
+          "strong_mass": 12.105194854736329,
+          "on_grid_edge": true,
+          "T_post": 0.7
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 3.0,
+            "b": -6.0,
+            "weak_mass": 10.874863052368164,
+            "strong_mass": 12.105194854736329,
+            "on_grid_edge": true,
+            "T_post": 0.7
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9005714285714286
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours3",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9062380952380953,
+      "ece": 0.07016591223648616,
+      "brier": 0.15049141645431519,
+      "risk": {
+        "theta": 0.819827139377594,
+        "automation": 0.6449047619047619,
+        "realized_risk": 0.014546260060547933,
+        "bound": 0.048967373855989524,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.054,
+        "incoherence_after": 0.0,
+        "acc_after": 0.907952380952381,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 3.0,
+          "b": -6.0,
+          "weak_mass": 11.508581161499023,
+          "strong_mass": 11.956648254394532,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 3.0,
+            "b": -6.0,
+            "weak_mass": 11.508581161499023,
+            "strong_mass": 11.956648254394532,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9062380952380953
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours3cal",
+      "seed": 1,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9062380952380953,
+      "ece": 0.017560779384204354,
+      "brier": 0.13613131642341614,
+      "risk": {
+        "theta": 0.925896167755127,
+        "automation": 0.6449047619047619,
+        "realized_risk": 0.014546260060547933,
+        "bound": 0.048967373855989524,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.054,
+        "incoherence_after": 0.0,
+        "acc_after": 0.907952380952381,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 3.0,
+          "b": -6.0,
+          "weak_mass": 11.508581161499023,
+          "strong_mass": 11.956648254394532,
+          "on_grid_edge": true,
+          "T_post": 0.6
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 3.0,
+            "b": -6.0,
+            "weak_mass": 11.508581161499023,
+            "strong_mass": 11.956648254394532,
+            "on_grid_edge": true,
+            "T_post": 0.6
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9062380952380953
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "B1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.8006190476190476,
+      "ece": 0.04195493608145489,
+      "brier": 0.2535002529621124,
+      "risk": {
+        "theta": Infinity,
+        "automation": 0.0,
+        "realized_risk": NaN,
+        "bound": NaN,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": true
+      },
+      "coherence": {
+        "incoherence_before": 0.15066666666666667,
+        "incoherence_after": 0.0,
+        "acc_after": 0.8104761904761905,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 0.0,
+          "b": -6.0,
+          "weak_mass": 0.0,
+          "strong_mass": 0.0,
+          "on_grid_edge": true,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 0.0,
+            "b": -6.0,
+            "weak_mass": 0.0,
+            "strong_mass": 0.0,
+            "on_grid_edge": true,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.8006190476190476
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "B2",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9101428571428571,
+      "ece": 0.07204760970955804,
+      "brier": 0.1462378203868866,
+      "risk": {
+        "theta": 0.8550950884819031,
+        "automation": 0.6090952380952381,
+        "realized_risk": 0.010710655929950796,
+        "bound": 0.04414969281513048,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.015666666666666666,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9102857142857143,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 2.75,
+          "b": -5.5,
+          "weak_mass": 11.468260955810546,
+          "strong_mass": 11.971207237243652,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 2.75,
+            "b": -5.5,
+            "weak_mass": 11.468260955810546,
+            "strong_mass": 11.971207237243652,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9101428571428571
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours1",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9093809523809524,
+      "ece": 0.0685327265688351,
+      "brier": 0.14271777868270874,
+      "risk": {
+        "theta": 0.829968273639679,
+        "automation": 0.653952380952381,
+        "realized_risk": 0.012670210442001006,
+        "bound": 0.048967373855989524,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.004666666666666667,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9094761904761904,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 2.75,
+          "b": -5.5,
+          "weak_mass": 10.82051773071289,
+          "strong_mass": 12.103681182861328,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 2.75,
+            "b": -5.5,
+            "weak_mass": 10.82051773071289,
+            "strong_mass": 12.103681182861328,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9093809523809524
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours1cal",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.9093809523809524,
+      "ece": 0.013531878846032257,
+      "brier": 0.12990468740463257,
+      "risk": {
+        "theta": 0.9335371255874634,
+        "automation": 0.653952380952381,
+        "realized_risk": 0.012670210442001006,
+        "bound": 0.048967373855989524,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.004666666666666667,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9094761904761904,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 2.75,
+          "b": -5.5,
+          "weak_mass": 10.82051773071289,
+          "strong_mass": 12.103681182861328,
+          "on_grid_edge": false,
+          "T_post": 0.6
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 2.75,
+            "b": -5.5,
+            "weak_mass": 10.82051773071289,
+            "strong_mass": 12.103681182861328,
+            "on_grid_edge": false,
+            "T_post": 0.6
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.9093809523809524
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours3",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.912047619047619,
+      "ece": 0.07406133896680102,
+      "brier": 0.14521093666553497,
+      "risk": {
+        "theta": 0.8519660830497742,
+        "automation": 0.6113809523809524,
+        "realized_risk": 0.010748500662045357,
+        "bound": 0.04414969281513048,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.017333333333333333,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9125238095238095,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 2.75,
+          "b": -5.5,
+          "weak_mass": 11.482174491882324,
+          "strong_mass": 11.969509506225586,
+          "on_grid_edge": false,
+          "T_post": 1.0
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 2.75,
+            "b": -5.5,
+            "weak_mass": 11.482174491882324,
+            "strong_mass": 11.969509506225586,
+            "on_grid_edge": false,
+            "T_post": 1.0
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.912047619047619
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    },
+    {
+      "dataset": "civil",
+      "config": "ours3cal",
+      "seed": 2,
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "n_labeled": 1000,
+      "n_eval": 21000,
+      "acc": 0.912047619047619,
+      "ece": 0.021227078500248128,
+      "brier": 0.13091833889484406,
+      "risk": {
+        "theta": 0.9486728310585022,
+        "automation": 0.6113809523809524,
+        "realized_risk": 0.010748500662045357,
+        "bound": 0.04414969281513048,
+        "alpha": 0.05,
+        "delta": 0.05,
+        "insufficient": false
+      },
+      "coherence": {
+        "incoherence_before": 0.017333333333333333,
+        "incoherence_after": 0.0,
+        "acc_after": 0.9125238095238095,
+        "map_fallbacks": 0
+      },
+      "fusion": {
+        "default": {
+          "T": 1.1,
+          "a": 2.75,
+          "b": -5.5,
+          "weak_mass": 11.482174491882324,
+          "strong_mass": 11.969509506225586,
+          "on_grid_edge": false,
+          "T_post": 0.6
+        },
+        "by_k": {
+          "2": {
+            "T": 1.1,
+            "a": 2.75,
+            "b": -5.5,
+            "weak_mass": 11.482174491882324,
+            "strong_mass": 11.969509506225586,
+            "on_grid_edge": false,
+            "T_post": 0.6
+          }
+        }
+      },
+      "n_excluded": 56,
+      "by_family": {
+        "noul": {
+          "n": 21000,
+          "acc": 0.912047619047619
+        }
+      },
+      "by_tier": {},
+      "n_requested": 1000
+    }
+  ],
+  "agg": {
+    "B1@1000": {
+      "acc": [
+        0.8006190476190476,
+        0.0
+      ],
+      "ece": [
+        0.04221231463031166,
+        0.0003639882344571445
+      ],
+      "brier": [
+        0.25421111782391864,
+        0.0010053147285808517
+      ]
+    },
+    "B2@1000": {
+      "acc": [
+        0.909968253968254,
+        0.0034043086241357066
+      ],
+      "ece": [
+        0.07648009289540941,
+        0.006174385285786616
+      ],
+      "brier": [
+        0.14940601587295532,
+        0.0024106106175846975
+      ]
+    },
+    "ours1@1000": {
+      "acc": [
+        0.9077936507936508,
+        0.0053675677520352285
+      ],
+      "ece": [
+        0.07100894455493442,
+        0.009108184688522557
+      ],
+      "brier": [
+        0.14806503554185232,
+        0.004352480294431844
+      ]
+    },
+    "ours1cal@1000": {
+      "acc": [
+        0.9077936507936508,
+        0.0053675677520352285
+      ],
+      "ece": [
+        0.022121067187142768,
+        0.0060743781291410035
+      ],
+      "brier": [
+        0.13402913510799408,
+        0.006388931070357777
+      ]
+    },
+    "ours3@1000": {
+      "acc": [
+        0.9103492063492062,
+        0.0029215836968253858
+      ],
+      "ece": [
+        0.07403724829923537,
+        0.0031511437289640024
+      ],
+      "brier": [
+        0.1475802610317866,
+        0.0021895284682763292
+      ]
+    },
+    "ours3cal@1000": {
+      "acc": [
+        0.9103492063492062,
+        0.0029215836968253858
+      ],
+      "ece": [
+        0.019812219018974012,
+        0.0016094175068416946
+      ],
+      "brier": [
+        0.13249903917312622,
+        0.0025755918067379836
+      ]
+    }
+  }
+}

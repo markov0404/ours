@@ -1,0 +1,57 @@
+{
+  "gate": "R2-D",
+  "zone": "C",
+  "detail": {
+    "forced_acc": 0.7875647668393783,
+    "ours_acc": 0.5077720207253886,
+    "abstain_unanswerable": 0.5699481865284974,
+    "tpr": 0.5699481865284974,
+    "fpr": 0.40414507772020725,
+    "rule_round1": {
+      "zone": "A",
+      "detail": {
+        "forced": 0.7875647668393783,
+        "ours": 1.077720207253886
+      }
+    }
+  },
+  "inputs": {
+    "forced": {
+      "acc_answerable": 0.7875647668393783,
+      "abstain_unanswerable": 0.0
+    },
+    "ours": {
+      "acc_answerable": 0.5077720207253886,
+      "abstain_unanswerable": 0.5699481865284974
+    },
+    "tpr": 0.5699481865284974,
+    "fpr": 0.40414507772020725,
+    "sem": true,
+    "coverage_answerable": 0.5958549222797928,
+    "n": {
+      "answerable": 193,
+      "noev": 193,
+      "cal_answerable": 613,
+      "cal_noev": 613
+    },
+    "thresholds": {
+      "entropy": 0.6,
+      "mass": 0.0,
+      "overlap": 0.7,
+      "c_high": 5.0,
+      "sem": 0.4634477496147156
+    },
+    "axis_counts": {
+      "entropy": 125,
+      "overlap": 251,
+      "sem": 128,
+      "huecos_rojo_ans": 78,
+      "huecos_rojo_noev": 110
+    }
+  },
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "ledger": {
+    "text": "R2-D corrido: zona C [TPR 0.570 FPR 0.404 acc 0.508 vs forzado 0.788]",
+    "sustiene": false
+  }
+}

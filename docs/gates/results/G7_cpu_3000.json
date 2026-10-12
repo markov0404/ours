@@ -1,0 +1,31 @@
+{
+  "p50_ms": 9.152511483989656,
+  "p95_ms": 13.019005756359544,
+  "mean_ms": 9.449047595553566,
+  "components": {
+    "phi_ms_p50": 0.5851140012964606,
+    "memory_ms_p50": 7.7037799928803,
+    "fusion_ms_p50": 0.1384634815622121,
+    "coherence_ms_p50": 0.12275649351067841,
+    "router_policy_ms_p50": 0.39420498069375753
+  },
+  "components_p95": {
+    "phi_ms_p95": 1.0510113963391625,
+    "memory_ms_p95": 11.119568062713368,
+    "fusion_ms_p95": 0.22517825709655878,
+    "coherence_ms_p95": 0.20684053597506133,
+    "router_policy_ms_p95": 0.6865558767458423
+  },
+  "n_mem": 3000,
+  "d": 2560,
+  "k": 32,
+  "iters": 400,
+  "questions": 3,
+  "candidates": 200,
+  "device": "cpu",
+  "machine": {
+    "processor": "x86_64",
+    "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+    "cpu_count": 208
+  }
+}

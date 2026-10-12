@@ -1,0 +1,124 @@
+{
+  "gate": "G4",
+  "zone": "C",
+  "detail": {
+    "risk_ok": false,
+    "oos_ok": true,
+    "insufficient_seeds": {
+      "0.02": [
+        0,
+        1,
+        2
+      ],
+      "0.05": [
+        0,
+        1,
+        2
+      ]
+    },
+    "reason": "calibración insuficiente"
+  },
+  "inputs": {
+    "by_alpha": {
+      "0.02": {
+        "risk": {
+          "realized_risk": NaN,
+          "automation": 0.0,
+          "insufficient": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "0.05": {
+        "risk": {
+          "realized_risk": NaN,
+          "automation": 0.0,
+          "insufficient": [
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    "oos": {
+      "auroc_conf": 0.7716223333333335,
+      "auroc_conf_mass": 0.7899182962962964
+    },
+    "per_seed": {
+      "0.02": [
+        {
+          "seed": 0,
+          "theta": Infinity,
+          "automation": 0.0,
+          "realized_risk": NaN,
+          "bound": 0.0737674046369823,
+          "alpha": 0.02,
+          "delta": 0.05,
+          "insufficient": false
+        },
+        {
+          "seed": 1,
+          "theta": Infinity,
+          "automation": 0.0,
+          "realized_risk": NaN,
+          "bound": 0.05472244609377706,
+          "alpha": 0.02,
+          "delta": 0.05,
+          "insufficient": false
+        },
+        {
+          "seed": 2,
+          "theta": Infinity,
+          "automation": 0.0,
+          "realized_risk": NaN,
+          "bound": 0.05815507911697247,
+          "alpha": 0.02,
+          "delta": 0.05,
+          "insufficient": false
+        }
+      ],
+      "0.05": [
+        {
+          "seed": 0,
+          "theta": Infinity,
+          "automation": 0.0,
+          "realized_risk": NaN,
+          "bound": 0.0737674046369823,
+          "alpha": 0.05,
+          "delta": 0.05,
+          "insufficient": false
+        },
+        {
+          "seed": 1,
+          "theta": Infinity,
+          "automation": 0.0,
+          "realized_risk": NaN,
+          "bound": 0.05472244609377706,
+          "alpha": 0.05,
+          "delta": 0.05,
+          "insufficient": false
+        },
+        {
+          "seed": 2,
+          "theta": Infinity,
+          "automation": 0.0,
+          "realized_risk": NaN,
+          "bound": 0.05815507911697247,
+          "alpha": 0.05,
+          "delta": 0.05,
+          "insufficient": false
+        }
+      ]
+    }
+  },
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n": 1000
+}

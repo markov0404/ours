@@ -1,0 +1,79 @@
+{
+  "gate": "G0",
+  "results": [
+    {
+      "model": "alibiserikbay/JevK5",
+      "style": "jevk5",
+      "T": 1.22,
+      "dtype": "bf16",
+      "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+      "acc": 0.8744588744588745,
+      "ece": 0.018743954308621306,
+      "brier": 0.18291589617729187,
+      "ms_per_item_local": 99.90109406508408,
+      "tokens_per_s": 6992.9770754155015,
+      "n_tokens": 161378,
+      "wall_s": 23.077152729034424,
+      "n_multi_reorder": 139,
+      "fla_installed": true,
+      "flip_rate_reorder": 0.08633093525179857,
+      "by_tier": {
+        "original": {
+          "n": 72,
+          "acc": 0.9444444444444444,
+          "ece": 0.060434177517890916
+        },
+        "easy": {
+          "n": 48,
+          "acc": 1.0,
+          "ece": 0.018032404283682506
+        },
+        "hard": {
+          "n": 111,
+          "acc": 0.7747747747747747,
+          "ece": 0.062055650326582786
+        }
+      }
+    },
+    {
+      "model": "Qwen/Qwen3.5-4B",
+      "style": "numeric",
+      "T": 1.0,
+      "dtype": "bf16",
+      "backbone_id": "Qwen/Qwen3.5-4B@main:numeric:bf16",
+      "acc": 0.6926406926406926,
+      "ece": 0.05938206580810217,
+      "brier": 0.4007401168346405,
+      "ms_per_item_local": 90.02400063849115,
+      "tokens_per_s": 7325.463518509385,
+      "n_tokens": 152337,
+      "wall_s": 20.795544147491455,
+      "n_multi_reorder": 139,
+      "fla_installed": true,
+      "flip_rate_reorder": 0.2805755395683453,
+      "by_tier": {
+        "original": {
+          "n": 72,
+          "acc": 0.7916666666666666,
+          "ece": 0.1859501029054324
+        },
+        "easy": {
+          "n": 48,
+          "acc": 1.0,
+          "ece": 0.14840163973470527
+        },
+        "hard": {
+          "n": 111,
+          "acc": 0.4954954954954955,
+          "ece": 0.1384047124836896
+        }
+      }
+    },
+    {
+      "model": "cloudflare/clef-flash",
+      "status": "config cargable (qwen3_5); no evaluado en este harness"
+    }
+  ],
+  "chosen": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "rule": "max acc; ECE desempata; 9B solo si 4B > 3pp por debajo"
+}

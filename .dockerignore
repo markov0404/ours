@@ -1,0 +1,15 @@
+.git
+.venv*
+cache
+results
+pool
+hf-cache
+vendor
+docs
+tests
+scripts
+examples
+**/__pycache__
+**/*.parquet
+.pytest_cache
+.env

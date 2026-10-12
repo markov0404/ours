@@ -1,0 +1,36 @@
+# Perfiles: `docker compose --profile gpu up` (NVIDIA Container Toolkit) o `docker compose --profile cpu up`.
+# ./pool: directorio creado con `dec-pool build` (ver README §5). Caché de modelos de Hugging Face en ${HF_CACHE:-./hf-cache}.
+# El puerto se publica solo en 127.0.0.1; cambiarlo a "8090:8090" para exponerlo en la red.
+x-dec: &dec
+  volumes:
+    - ./pool:/pool
+    - ${HF_CACHE:-./hf-cache}:/models
+  ports:
+    - "127.0.0.1:${DEC_PORT:-8090}:8090"
+  restart: unless-stopped
+
+services:
+  dec-gpu:
+    <<: *dec
+    profiles: ["gpu"]
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ours-dec:gpu
+    command: ["--pool-dir", "/pool"]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  dec-cpu:
+    <<: *dec
+    profiles: ["cpu"]
+    build:
+      context: .
+      dockerfile: Dockerfile.cpu
+    image: ours-dec:cpu
+    command: ["--pool-dir", "/pool", "--device", "cpu", "--threads", "${DEC_THREADS:-8}"]

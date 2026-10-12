@@ -1,0 +1,48 @@
+{
+  "gate": "G8",
+  "zone": "A",
+  "detail": {
+    "forced": 0.7875647668393783,
+    "ours": 0.9792746113989637
+  },
+  "inputs": {
+    "forced": {
+      "acc_answerable": 0.7875647668393783,
+      "abstain_unanswerable": 0.0
+    },
+    "ours": {
+      "acc_answerable": 0.6839378238341969,
+      "abstain_unanswerable": 0.29533678756476683
+    },
+    "coverage_answerable": 0.7927461139896373,
+    "n": {
+      "answerable": 193,
+      "noev": 193,
+      "strict": 31,
+      "cal_answerable": 613,
+      "cal_noev": 613
+    },
+    "thresholds": {
+      "entropy": 0.55,
+      "mass": 0.0,
+      "overlap": 0.7,
+      "c_high": 5.0
+    }
+  },
+  "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+  "strict": {
+    "zone": "A",
+    "detail": {
+      "forced": 0.7875647668393783,
+      "ours": 1.0387765335116161
+    },
+    "ours": {
+      "acc_answerable": 0.6839378238341969,
+      "abstain_unanswerable": 0.3548387096774194
+    },
+    "forced": {
+      "acc_answerable": 0.7875647668393783,
+      "abstain_unanswerable": 0.0
+    }
+  }
+}

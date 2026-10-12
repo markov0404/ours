@@ -1,0 +1,47 @@
+{
+  "what": "Fila con el harness real de JevBench (jevbench.cli run --adapter typesafe) contra dec-serve en modo benchmark (B0: backbone + lectura de logits, sin memoria), batch-1, pod A40.",
+  "date": "2026-10-11",
+  "server": {
+    "backbone_id": "alibiserikbay/JevK5@main:jevk5:bf16",
+    "T": 1.22,
+    "mode": "benchmark",
+    "cmd": "python -m dec.serve.app --backbone alibiserikbay/JevK5 --style jevk5 --T 1.22 --dtype bf16 --port 8091 --mode benchmark"
+  },
+  "harness_cmd": "python -m jevbench.cli run --tasks datasets/public/<tier>.jsonl --adapter typesafe --endpoint http://127.0.0.1:8091 --key-env TYPESAFE_API_KEY --model dec-jevk5-b0 --price-in-per-m 0 --price-out-per-m 0 --results RUN/<tier>/results.jsonl --raw-dir RUN/<tier>/raw --ledger RUN/<tier>/ledger.jsonl --cap-usd 1 --manifest RUN/<tier>/manifest.json",
+  "tiers": {
+    "original": {
+      "n": 72,
+      "n_correct": 68,
+      "acc": 0.9444,
+      "schema_validity": 1.0,
+      "ordinal_mae": 0.0762,
+      "latency_p50_s": 0.062,
+      "published_jevk5_v03": 0.944
+    },
+    "easy": {
+      "n": 48,
+      "n_correct": 48,
+      "acc": 1.0,
+      "schema_validity": 1.0,
+      "ordinal_mae": null,
+      "latency_p50_s": 0.066,
+      "published_jevk5_v03": 1.0
+    },
+    "hard": {
+      "n": 111,
+      "n_correct": 86,
+      "acc": 0.7748,
+      "schema_validity": 1.0,
+      "ordinal_mae": 0.3264,
+      "latency_p50_s": 0.106,
+      "published_jevk5_v03": 0.784
+    }
+  },
+  "public_231": {
+    "n_correct": 202,
+    "acc": 0.8745
+  },
+  "failures": 0,
+  "wire_errors": 0,
+  "note": "Reproduce el model card de JevK5 v0.3 a 1 ítem (hard 86 vs 87 de 111). El loader interno daba hard 83/111 hasta corregir el orden de opciones (orden de `criteria`, no de `labels`; difieren en 193/231 ítems): con el loader corregido, G0 interno = harness (68/48/86)."
+}

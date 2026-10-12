@@ -1,0 +1,31 @@
+{
+  "what": "Latencia extremo a extremo por decisión (HTTP + backbone + capa en modo benchmark, batch-1) con el harness real de JevBench contra dec-serve en una H100 80GB. Backbone JevK5 bf16 T=1.22. Sin flash-linear-attention instalado en este pod (la A40 sí lo tenía): la atención lineal de Qwen3.5 corre el camino de referencia.",
+  "date": "2026-10-12",
+  "tiers": {
+    "original": {
+      "n": 72,
+      "latency_p50_s": 0.093,
+      "latency_p95_s": 0.141,
+      "failures": 0
+    },
+    "hard": {
+      "n": 111,
+      "latency_p50_s": 0.148,
+      "latency_p95_s": 0.308,
+      "failures": 0
+    }
+  },
+  "a40_reference": {
+    "original_p50_s": 0.062,
+    "hard_p50_s": 0.106,
+    "note": "A40 con flash-linear-attention 0.5.2; ver harness_row_jevk5_b0.json"
+  },
+  "layer_overhead_h100": {
+    "p50_ms_cuda_21k": 2.44,
+    "p50_ms_cuda_3k": 2.33,
+    "p50_ms_cpu_21k": 35.9,
+    "p50_ms_cpu_3k": 9.15,
+    "source": "G7.json"
+  },
+  "reading": "La capa añade ~2.4 ms (GPU) sobre decisiones de 90-150 ms: entre el 1.6 % y el 2.6 % del coste por decisión; en CPU exacta sería 9-36 ms."
+}

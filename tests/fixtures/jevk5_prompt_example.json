@@ -1,0 +1,14 @@
+{
+  "jevk5_version": "0.3.3",
+  "state": "I was billed twice for order #4411. Please refund the duplicate charge today.",
+  "question": {
+    "type": "choice",
+    "instructions": "Which team should handle this?",
+    "criteria": {
+      "billing": "Payments and refunds",
+      "tech": "Bugs",
+      "sales": "New purchases"
+    }
+  },
+  "prompt": "<|im_start|>system\nApply the supplied criterion to the supplied evidence. Choose exactly one listed option. Respond with only its uppercase letter, with no explanation or reasoning.<|im_end|>\n<|im_start|>user\n{\"evidence\": \"I was billed twice for order #4411. Please refund the duplicate charge today.\", \"criterion\": \"Which team should handle this?\", \"options\": [{\"letter\": \"A\", \"description\": \"billing: Payments and refunds\"}, {\"letter\": \"B\", \"description\": \"tech: Bugs\"}, {\"letter\": \"C\", \"description\": \"sales: New purchases\"}]}<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+}
