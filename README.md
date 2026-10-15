@@ -1,25 +1,59 @@
-# ours — capa de decisión sobre un decision model abierto
+# ours — que un modelo de IA decida como decide tu equipo
 
-> Repositorio `ours` (nombre por la configuración Ours). El paquete Python se llama `dec` (`pip install -e .`, `dec-pool`, `dec-serve`, `dec-eval`).
-> Para ponerlo en marcha con tus propias decisiones: [§5 Puesta en producción](#5-puesta-en-producción-en-tu-máquina).
+## TL;DR
 
-`dec` toma un *decision model* abierto (hoy **JevK5**, Qwen3.5‑4B afinado por TypeSafe‑style readout) y le añade lo que un API de
-decisión zero‑shot no puede dar sobre los datos de un cliente:
+- **Qué es:** una capa que se monta encima de un modelo de IA pequeño y abierto (JevK5, 4 000 millones de parámetros) para que tome
+  decisiones de opción cerrada —"¿es urgente?", "¿a qué equipo va?", "¿se aprueba el reembolso?"— **aprendiendo de las decisiones que
+  tu equipo ya tomó**, sin reentrenar el modelo.
+- **Qué gana:** en nuestras pruebas, con 1000 decisiones pasadas, acierta **hasta 11 puntos más** que el modelo solo (moderación: 80 % → 91 %;
+  intenciones de usuario: 70 % → 75 %), está **mejor calibrado** (cuando dice "90 % seguro", acierta más cerca del 90 %), mantiene
+  **coherentes** las respuestas que dependen entre sí, y puede decirte **qué casos es seguro automatizar** y cuáles mandar a una persona.
+- **Cuánto cuesta:** lo mismo que el modelo solo. No escribe texto ni alarga el prompt: lee la respuesta en una sola pasada y agrega
+  unos 2 ms. Corre en tu máquina (GPU o CPU) y tus datos no salen de ella.
+- **Cómo se usa:** `dec-pool build` con tu historial de decisiones → `dec-serve --pool-dir` → le mandás casos por HTTP y te devuelve la
+  decisión con su probabilidad, los precedentes en los que se apoyó y si conviene escalarla. Ver [Puesta en producción](#5-puesta-en-producción-en-tu-máquina).
+- **Licencia:** uso libre para investigación, estudio y uso personal o sin fines de lucro; **no se permite uso comercial** ([PolyForm Noncommercial 1.0.0](LICENSE)).
 
-| Eje | Qué hace | Qué necesita del cliente |
+## Qué hace, en criollo
+
+Los *decision models* (Jev, Microsoft Decision‑1, JevK5…) son modelos de lenguaje entrenados para elegir entre opciones y dar una
+probabilidad por cada una. Son buenos, pero deciden "en general": no saben cómo decide **tu** organización. Para ellos, un ticket
+"no puedo entrar a mi cuenta" es igual de urgente en cualquier empresa.
+
+`ours` les agrega cuatro cosas:
+
+1. **Memoria de precedentes.** Guarda tus decisiones pasadas. Ante un caso nuevo busca los más parecidos y mezcla "lo que diría el
+   modelo" con "lo que hizo tu equipo en casos así", según cuánta evidencia haya. Si no hay precedentes parecidos, confía en el modelo.
+2. **Coherencia entre preguntas.** Si le preguntás la intención ("reservar vuelo") y el tema ("viajes") de un mismo pedido, no deja que
+   las respuestas se contradigan. Solo esto subió la precisión de 70 % a 78 % en uno de los conjuntos, sin ningún dato extra.
+3. **Riesgo y costo.** Con tus decisiones pasadas calcula un umbral para automatizar solo lo que tiene un error acotado con garantía
+   estadística (en un conjunto: 20 % de los casos automatizados con 0.4 % de error). Si le decís que perder una amenaza cuesta 10
+   veces más que una falsa alarma, decide en consecuencia, y puede responder **"escalar"** en vez de adivinar.
+4. **Traza.** Cada decisión viene con su razón: qué dijo el modelo, qué precedentes usó, cuánta evidencia había y por qué escaló o no.
+
+**Ejemplo.** Un equipo de soporte tiene 2000 tickets ya clasificados por prioridad. Arma la memoria con ellos, levanta el servidor y le
+manda cada ticket nuevo. Recibe "prioridad alta, 87 %, basado en estos 5 tickets parecidos". Los casos con confianza suficiente se
+asignan solos; el resto va a una persona, que ahora tiene menos tickets que mirar.
+
+**Qué no hace.** No mejora al modelo en benchmarks públicos sin datos tuyos (ahí empata con JevK5). No aprende bien clases muy raras con
+pocos ejemplos: si tenés 50 amenazas entre 3000 comentarios, la memoria tiende a "no ver" amenazas; para eso conviene decidir por costo
+(ver [resultados](#la-precisión-engaña-en-clases-raras)). Necesita **al menos ~200 decisiones pasadas por pregunta** para ayudar; con menos
+puede empeorar.
+
+## Detalle técnico
+
+El paquete Python se llama `dec` (comandos `dec-pool`, `dec-serve`, `dec-eval`). Backbone por defecto: **JevK5** (Qwen3.5‑4B afinado para
+decisiones, Apache‑2.0). Configuración recomendada: **Ours‑3‑cal** (memoria sobre embeddings MiniLM + métrica aprendida + recalibración).
+
+| Eje | Qué hace | Qué necesita de tu lado |
 |---|---|---|
-| **Precedente** | memoria de decisiones pasadas (kNN sobre el estado oculto del backbone o sobre MiniLM) fusionada con la probabilidad del modelo | decisiones pasadas etiquetadas |
-| **Coherencia** | decodificación conjunta de varias preguntas sobre el mismo estado bajo restricciones declaradas (jerarquías, implicaciones) | la estructura entre preguntas |
-| **Riesgo y coste** | umbral selectivo con garantía estadística (Geifman & El‑Yaniv), acción de mínimo coste esperado con `ESCALATE`, detección de fuera de alcance por masa de precedentes | matriz de costes y nivel de riesgo |
-| **Traza y huecos** | router de 3 ejes (huecos de evidencia, oráculo, consecuencia) y una `Decision` con razón, precedentes y evidencia | nada |
+| **Precedente** | memoria de decisiones pasadas (vecinos más cercanos sobre MiniLM o sobre el estado oculto del modelo) fusionada con la probabilidad del modelo | decisiones pasadas con su resultado |
+| **Coherencia** | decodificación conjunta de varias preguntas sobre el mismo caso bajo restricciones declaradas (jerarquías, implicaciones) | la relación entre preguntas |
+| **Riesgo y costo** | umbral selectivo con garantía estadística (Geifman & El‑Yaniv), acción de mínimo costo esperado con `ESCALATE`, detección de casos fuera de alcance | matriz de costos y nivel de riesgo aceptable |
+| **Traza y huecos** | router de 3 ejes (falta de evidencia, falta de precedentes, consecuencia) y una `Decision` con razón, precedentes y evidencia | nada |
 
-Todo ocurre con **una sola pasada del backbone y cero tokens generados**: la respuesta se lee de los logits de los códigos de opción;
-los precedentes entran por el estado oculto, no por el prompt. En JevBench público `dec` **empata exactamente con JevK5** (es el
-backbone, y lo reproduce ítem a ítem); el valor está en lo que el benchmark no mide.
-
-**Licencia: [PolyForm Noncommercial 1.0.0](LICENSE).** Podés leer, usar, modificar y compartir el código para investigación, estudio, uso personal y
-organizaciones sin fines de lucro; **no está permitido usarlo comercialmente** (venderlo, integrarlo en un producto o servicio pago). Para uso
-comercial, contactar al autor. Componentes de terceros: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) (conservan sus licencias).
+Todo ocurre con **una sola pasada del modelo y cero tokens generados**: la respuesta se lee de los logits de los códigos de opción y
+los precedentes entran por el estado oculto, no por el prompt. Componentes de terceros: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ---
 
